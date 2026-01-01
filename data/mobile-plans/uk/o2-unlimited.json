@@ -1,0 +1,16 @@
+{
+  "provider": "O2",
+  "name": "Unlimited Max",
+  "price": 30,
+  "currency": "GBP",
+  "data": "Unlimited",
+  "minutes": "Unlimited",
+  "texts": "Unlimited",
+  "contractLength": "12 months",
+  "status": "complete",
+  "metadata": {
+    "sourceUrl": "https://o2.co.uk/plans/unlimited",
+    "confidence": "community",
+    "notes": "Sample data - unlimited plan"
+  }
+}

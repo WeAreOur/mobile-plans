@@ -1,0 +1,16 @@
+{
+  "provider": "Vodafone",
+  "name": "Unlimited Lite",
+  "price": 15,
+  "currency": "GBP",
+  "data": "Unlimited",
+  "minutes": "Unlimited",
+  "texts": "Unlimited",
+  "contractLength": "30 days",
+  "status": "complete",
+  "metadata": {
+    "sourceUrl": "https://vodafone.co.uk/plans/lite",
+    "confidence": "community",
+    "notes": "Sample data - unlimited with speed cap"
+  }
+}

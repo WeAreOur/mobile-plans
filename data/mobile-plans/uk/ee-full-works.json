@@ -1,0 +1,16 @@
+{
+  "provider": "EE",
+  "name": "Full Works Plan",
+  "price": 35,
+  "currency": "GBP",
+  "data": "Unlimited",
+  "minutes": "Unlimited",
+  "texts": "Unlimited",
+  "contractLength": "24 months",
+  "status": "complete",
+  "metadata": {
+    "sourceUrl": "https://ee.co.uk/plans/full-works",
+    "confidence": "community",
+    "notes": "Sample data - premium unlimited plan"
+  }
+}

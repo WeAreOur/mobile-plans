@@ -1,0 +1,16 @@
+{
+  "provider": "Three",
+  "name": "Essential Plan",
+  "price": 10,
+  "currency": "GBP",
+  "data": "12GB",
+  "minutes": "Unlimited",
+  "texts": "Unlimited",
+  "contractLength": "30 days",
+  "status": "complete",
+  "metadata": {
+    "sourceUrl": "https://three.co.uk/plans/essential",
+    "confidence": "community",
+    "notes": "Sample data - budget plan"
+  }
+}

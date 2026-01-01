@@ -6,9 +6,13 @@
   "lastUpdated": "2026-01-01",
   "providers": [
     "ee.json",
+    "ee-full-works.json",
     "three.json",
+    "three-essential.json",
     "o2.json",
-    "vodafone.json"
+    "o2-unlimited.json",
+    "vodafone.json",
+    "vodafone-lite.json"
   ],
   "maintainers": [
     "github:gatsby"
