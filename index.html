@@ -15,41 +15,77 @@
     import { t, setLocale } from './scripts/i18n.js';
 
     async function render() {
-      const { view, style, locale, country } = config;
-      
-      // Set document direction for RTL languages
-      document.documentElement.dir = ['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr';
-      document.documentElement.lang = locale;
-      
-      // Load resources in parallel
-      const [viewHTML, translations, data] = await Promise.all([
-        loadView(view, locale),
-        loadLocale(locale),
-        loadData(country)
-      ]);
-      
-      // Load appropriate styles
-      await loadStyle(style, locale);
-      
-      // Update locale strings
-      setLocale(translations);
-      
-      // Inject view
-      document.getElementById('app').innerHTML = viewHTML;
-      
-      // Make data and translation available to view
-      window.currentData = data;
-      window.t = t;
-      
-      // Trigger view initialization if it has one
-      if (window.initView) window.initView();
+      try {
+        const { view, style, locale, country } = config;
+        
+        console.log('Rendering with config:', config);
+        
+        // Set document direction for RTL languages
+        document.documentElement.dir = ['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr';
+        document.documentElement.lang = locale;
+        
+        // Load resources in parallel
+        const [viewHTML, translations, data] = await Promise.all([
+          loadView(view, locale),
+          loadLocale(locale),
+          loadData(country)
+        ]);
+        
+        console.log('Loaded data:', data);
+        
+        // Load appropriate styles
+        await loadStyle(style, locale);
+        
+        // Update locale strings
+        setLocale(translations);
+        
+        // Make data and translation available to view
+        window.currentData = data;
+        window.t = t;
+        
+        // Parse HTML to extract script
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = viewHTML;
+        
+        // Extract and remove script tag
+        const scriptTag = tempDiv.querySelector('script');
+        const scriptContent = scriptTag ? scriptTag.textContent : '';
+        if (scriptTag) scriptTag.remove();
+        
+        // Inject HTML (without script)
+        document.getElementById('app').innerHTML = tempDiv.innerHTML;
+        
+        console.log('View injected, executing script...');
+        
+        // Execute the script
+        if (scriptContent) {
+          try {
+            eval(scriptContent);
+            // Call initView if it was defined
+            if (window.initView) {
+              window.initView();
+            }
+          } catch (err) {
+            console.error('Script execution error:', err);
+          }
+        }
+      } catch (error) {
+        console.error('Render error:', error);
+        document.getElementById('app').innerHTML = `
+          <div style="padding: 2rem; color: red;">
+            <h1>Error Loading App</h1>
+            <p>${error.message}</p>
+            <pre>${error.stack}</pre>
+          </div>
+        `;
+      }
     }
 
     // Watch for config changes
     watch(render);
     
     // Initial render
-    render();
+    render().catch(err => console.error('Initial render failed:', err));
   </script>
 </body>
 </html>
