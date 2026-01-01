@@ -1,0 +1,89 @@
+<div class="container">
+  <header class="header">
+    <h1 id="page-title">Mobile Plans</h1>
+    
+    <div class="controls">
+      <select id="country-select" onchange="updateConfig({ country: this.value })">
+        <option value="uk">United Kingdom</option>
+        <option value="us">United States</option>
+      </select>
+      
+      <select id="locale-select" onchange="updateConfig({ locale: this.value })">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        <option value="he">עברית</option>
+      </select>
+      
+      <select id="view-select" onchange="updateConfig({ view: this.value })">
+        <option value="providers">Cards</option>
+        <option value="comparison">Table</option>
+      </select>
+    </div>
+  </header>
+
+  <div id="providers-list" class="providers-grid"></div>
+  
+  <footer class="footer">
+    <p>
+      <span id="data-attribution"></span> • 
+      <a href="https://github.com/WeAreOur/mobile-plans">Contribute on GitHub</a> • 
+      <a href="/legal/LICENSE.md">CC-BY-SA 4.0</a>
+    </p>
+  </footer>
+</div>
+
+<script>
+  window.initView = function() {
+    const { providers, meta } = window.currentData;
+    const container = document.getElementById('providers-list');
+    const attribution = document.getElementById('data-attribution');
+    
+    // Update title
+    document.getElementById('page-title').textContent = window.t('title');
+    
+    // Render providers
+    container.innerHTML = providers.map(plan => `
+      <div class="card card-${plan.status}">
+        <div class="card-header">
+          <h3>${plan.provider}</h3>
+          <span class="badge badge-${plan.metadata.confidence}">
+            ${plan.metadata.confidence}
+          </span>
+        </div>
+        
+        <h4 class="plan-name">${plan.name}</h4>
+        
+        <div class="plan-details">
+          <div class="detail-row">
+            <span class="label">${window.t('price')}:</span>
+            <span class="value price">${plan.currency} ${plan.price}/mo</span>
+          </div>
+          <div class="detail-row">
+            <span class="label">${window.t('data')}:</span>
+            <span class="value">${plan.data}</span>
+          </div>
+          <div class="detail-row">
+            <span class="label">${window.t('minutes')}:</span>
+            <span class="value">${plan.minutes || 'N/A'}</span>
+          </div>
+          <div class="detail-row">
+            <span class="label">${window.t('contract')}:</span>
+            <span class="value">${plan.contractLength || 'N/A'}</span>
+          </div>
+        </div>
+        
+        <div class="card-footer">
+          <a href="${plan.metadata.sourceUrl}" target="_blank" rel="noopener">
+            ${window.t('view_plan')}
+          </a>
+          <span class="badge badge-${plan.status}">
+            ${plan.status}
+          </span>
+        </div>
+      </div>
+    `).join('');
+    
+    // Update attribution
+    attribution.textContent = `${meta.country} • ${providers.length} plans`;
+  };
+</script>

@@ -1,0 +1,16 @@
+{
+  "country": "United Kingdom",
+  "countryCode": "UK",
+  "currency": "GBP",
+  "rtl": false,
+  "lastUpdated": "2026-01-01",
+  "providers": [
+    "ee.json",
+    "three.json",
+    "o2.json",
+    "vodafone.json"
+  ],
+  "maintainers": [
+    "github:gatsby"
+  ]
+}

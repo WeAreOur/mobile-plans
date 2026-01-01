@@ -1,0 +1,15 @@
+{
+  "title": "Mobile Plans",
+  "provider": "Provider",
+  "price": "Price",
+  "data": "Data",
+  "minutes": "Minutes",
+  "texts": "Texts",
+  "contract": "Contract",
+  "status": "Status",
+  "view_plan": "View Plan",
+  "last_updated": "Last Updated",
+  "select_country": "Country",
+  "select_locale": "Language",
+  "select_view": "View"
+}

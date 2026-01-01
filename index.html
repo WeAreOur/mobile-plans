@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Plans - Community Market Data</title>
+  <link rel="stylesheet" href="/styles/base.css" id="base-style">
+</head>
+<body>
+  <div id="app">Loading...</div>
+  
+  <script type="module">
+    import { config, watch } from './config.js';
+    import { loadView, loadStyle, loadLocale, loadData } from './scripts/loader.js';
+    import { t, setLocale } from './scripts/i18n.js';
+
+    async function render() {
+      const { view, style, locale, country } = config;
+      
+      // Set document direction for RTL languages
+      document.documentElement.dir = ['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr';
+      document.documentElement.lang = locale;
+      
+      // Load resources in parallel
+      const [viewHTML, translations, data] = await Promise.all([
+        loadView(view, locale),
+        loadLocale(locale),
+        loadData(country)
+      ]);
+      
+      // Load appropriate styles
+      await loadStyle(style, locale);
+      
+      // Update locale strings
+      setLocale(translations);
+      
+      // Inject view
+      document.getElementById('app').innerHTML = viewHTML;
+      
+      // Make data and translation available to view
+      window.currentData = data;
+      window.t = t;
+      
+      // Trigger view initialization if it has one
+      if (window.initView) window.initView();
+    }
+
+    // Watch for config changes
+    watch(render);
+    
+    // Initial render
+    render();
+  </script>
+</body>
+</html>

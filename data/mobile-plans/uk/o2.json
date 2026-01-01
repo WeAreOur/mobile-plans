@@ -1,0 +1,16 @@
+{
+  "provider": "O2",
+  "name": "Big Bundle",
+  "price": 18,
+  "currency": "GBP",
+  "data": "30GB",
+  "minutes": "Unlimited",
+  "texts": "Unlimited",
+  "contractLength": "30 days",
+  "status": "complete",
+  "metadata": {
+    "sourceUrl": "https://o2.co.uk/plans",
+    "confidence": "community",
+    "notes": "Sample data for demonstration purposes"
+  }
+}

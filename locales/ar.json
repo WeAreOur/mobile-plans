@@ -1,0 +1,15 @@
+{
+  "title": "خطط الهاتف المحمول",
+  "provider": "مزود الخدمة",
+  "price": "السعر",
+  "data": "البيانات",
+  "minutes": "الدقائق",
+  "texts": "الرسائل",
+  "contract": "العقد",
+  "status": "الحالة",
+  "view_plan": "عرض الخطة",
+  "last_updated": "آخر تحديث",
+  "select_country": "الدولة",
+  "select_locale": "اللغة",
+  "select_view": "العرض"
+}

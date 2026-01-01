@@ -1,0 +1,21 @@
+/* RTL-specific overrides */
+.header h1 {
+  text-align: end;
+}
+
+.comparison-table th,
+.comparison-table td {
+  text-align: end;
+}
+
+.card-header {
+  flex-direction: row-reverse;
+}
+
+.detail-row {
+  flex-direction: row-reverse;
+}
+
+.card-footer {
+  flex-direction: row-reverse;
+}

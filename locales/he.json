@@ -1,0 +1,15 @@
+{
+  "title": "תוכניות סלולר",
+  "provider": "ספק",
+  "price": "מחיר",
+  "data": "נתונים",
+  "minutes": "דקות",
+  "texts": "הודעות",
+  "contract": "חוזה",
+  "status": "סטטוס",
+  "view_plan": "צפה בתוכנית",
+  "last_updated": "עודכן לאחרונה",
+  "select_country": "מדינה",
+  "select_locale": "שפה",
+  "select_view": "תצוגה"
+}

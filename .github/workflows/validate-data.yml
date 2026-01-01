@@ -1,0 +1,49 @@
+name: Validate Data
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: |
+          npm install ajv ajv-formats
+      
+      - name: Validate JSON Schema
+        run: |
+          echo "✅ Schema validation would run here"
+          echo "Note: Implement validate.js script for production use"
+      
+      - name: Check JSON Syntax
+        run: |
+          for file in data/mobile-plans/*/*.json; do
+            echo "Checking $file..."
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ Invalid JSON: $file"
+              exit 1
+            fi
+          done
+          echo "✅ All JSON files are valid"
+      
+      - name: Generate validation report
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "## Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo "✅ All JSON files have valid syntax" >> $GITHUB_STEP_SUMMARY

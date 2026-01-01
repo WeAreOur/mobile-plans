@@ -1,0 +1,16 @@
+{
+  "provider": "Three",
+  "name": "Unlimited Data",
+  "price": 25,
+  "currency": "GBP",
+  "data": "Unlimited",
+  "minutes": "Unlimited",
+  "texts": "Unlimited",
+  "contractLength": "12 months",
+  "status": "complete",
+  "metadata": {
+    "sourceUrl": "https://three.co.uk/plans",
+    "confidence": "community",
+    "notes": "Sample data for demonstration purposes"
+  }
+}
