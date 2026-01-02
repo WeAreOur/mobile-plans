@@ -1,11 +1,12 @@
 const cache = new Map();
 
-// Base path for GitHub Pages deployment
-// - Empty for localhost (development)
-// - '/mobile-plans' for GitHub Pages production
+// Base path for deployment
+// - Empty for localhost (development) or custom domain
+// - '/mobile-plans' for GitHub Pages production only
 const BASE_PATH = (window.location.hostname === 'localhost' || 
                    window.location.hostname === '127.0.0.1' ||
-                   window.location.hostname === '')
+                   window.location.hostname === '' ||
+                   window.location.hostname.includes('weareour.tech'))
   ? (window.location.pathname.startsWith('/mobile-plans') ? '/mobile-plans' : '')
   : '/mobile-plans';
 
