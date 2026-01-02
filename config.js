@@ -13,7 +13,7 @@ export function watch(callback) {
   return () => listeners.delete(callback);
 }
 
-export function updateConfig(updates) {
+function updateConfig(updates) {
   Object.assign(config, updates);
   
   // Update URL params for shareable links
@@ -34,6 +34,7 @@ function loadFromURL() {
 
 loadFromURL();
 
-// Expose globally for debugging and view scripts
-window.updateConfig = updateConfig;
-window.config = config;
+// Expose through WAO namespace for consistency
+if (!window.WAO) window.WAO = {};
+window.WAO.updateConfig = updateConfig;
+window.WAO.config = config;

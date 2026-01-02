@@ -1,0 +1,20 @@
+{
+  "name": "Mobile Plans Comparison",
+  "short_name": "Mobile Plans",
+  "description": "Compare UK mobile phone plans and find the best deal",
+  "start_url": "/mobile-plans/",
+  "scope": "/mobile-plans/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/mobile-plans/icons/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "lifestyle", "finance"]
+}
