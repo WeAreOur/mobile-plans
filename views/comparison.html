@@ -115,7 +115,12 @@
           </span>
         </td>
         <td>
-          <a href="${WAO.getPlanUrl(plan)}" target="_blank" rel="noopener" class="cta-button" style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.875rem;">
+          <a href="${WAO.getPlanUrl(plan)}" 
+             target="_blank" 
+             rel="${WAO.hasAffiliateLink(plan) ? 'sponsored noopener' : 'noopener'}" 
+             class="cta-button" 
+             style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.875rem;"
+             aria-label="View ${plan.name} on ${plan.provider.name} website">
             View Plan${WAO.hasAffiliateLink(plan) ? '<span class="affiliate-badge">*</span>' : ''}
           </a>
         </td>

@@ -132,7 +132,11 @@
         </div>
         
         <div class="card-footer">
-          <a href="${WAO.getPlanUrl(plan)}" target="_blank" rel="noopener" class="cta-button">
+          <a href="${WAO.getPlanUrl(plan)}" 
+             target="_blank" 
+             rel="${WAO.hasAffiliateLink(plan) ? 'sponsored noopener' : 'noopener'}" 
+             class="cta-button"
+             aria-label="View ${plan.name} on ${plan.provider.name} website">
             View Plan on ${plan.provider.name}${WAO.hasAffiliateLink(plan) ? '<span class="affiliate-badge">*</span>' : ''}
           </a>
           <small class="affiliate-note">
