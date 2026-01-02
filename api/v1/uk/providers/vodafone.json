@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Vodafone",
+  "provider": {
+    "name": "Vodafone",
+    "website": "https://vodafone.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "Unlimited Plus",
@@ -29,7 +33,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G at no extra cost. Free 3-month Secure Net trial included. Promotional 'Save £216' offer."
+        "notes": "5G at no extra cost. Free 3-month Secure Net trial included. Promotional 'Save £216' offer.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -59,7 +64,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 83 worldwide destinations. Free 3-month Secure Net trial."
+        "notes": "5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 83 worldwide destinations. Free 3-month Secure Net trial.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -89,7 +95,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G at no extra cost. Free 3-month Secure Net trial. Promotional 'Save £96' offer."
+        "notes": "5G at no extra cost. Free 3-month Secure Net trial. Promotional 'Save £96' offer.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -119,7 +126,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 51 European destinations. Free 3-month Secure Net trial."
+        "notes": "5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 51 European destinations. Free 3-month Secure Net trial.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -149,7 +157,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speeds. 5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 83 worldwide destinations. Free 3-month Secure Net trial."
+        "notes": "Uncapped speeds. 5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 83 worldwide destinations. Free 3-month Secure Net trial.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -179,7 +188,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speeds. 5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 51 European destinations. Free 3-month Secure Net trial."
+        "notes": "Uncapped speeds. 5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 51 European destinations. Free 3-month Secure Net trial.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -209,7 +219,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speeds. 5G at no extra cost. Free 3-month Secure Net trial."
+        "notes": "Uncapped speeds. 5G at no extra cost. Free 3-month Secure Net trial.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -221,7 +232,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "£2.50 per April",
       "roaming": {
@@ -239,7 +250,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G Ultra ready at no extra cost. Free 3-month Secure Net trial."
+        "notes": "5G Ultra ready at no extra cost. Free 3-month Secure Net trial.",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

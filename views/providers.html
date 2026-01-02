@@ -66,8 +66,8 @@
           bVal = parseData(b.data);
           break;
         case 'provider':
-          aVal = a.provider.toLowerCase();
-          bVal = b.provider.toLowerCase();
+          aVal = a.provider.name.toLowerCase();
+          bVal = b.provider.name.toLowerCase();
           break;
         default:
           return 0;
@@ -112,7 +112,7 @@
     container.innerHTML = sortedProviders.map(plan => `
       <div class="card card-${plan.status}">
         <div class="card-header">
-          <h3>${plan.provider}</h3>
+          <h3>${plan.provider.name}</h3>
         </div>
         
         <h4 class="plan-name">${plan.name}</h4>

@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Three",
+  "provider": {
+    "name": "Three",
+    "website": "https://three.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "25GB Lite (24 month)",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "RPI + 3.9%",
       "roaming": {
@@ -28,7 +32,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MNO, promotional pricing for first 6 months"
+        "notes": "Three MNO, promotional pricing for first 6 months",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -40,7 +45,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "RPI + 3.9%",
       "roaming": {
@@ -57,7 +62,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MNO, promotional pricing for first 6 months"
+        "notes": "Three MNO, promotional pricing for first 6 months",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -69,7 +75,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "RPI + 3.9%",
       "roaming": {
@@ -86,7 +92,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MNO, winter sale promotional pricing"
+        "notes": "Three MNO, winter sale promotional pricing",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

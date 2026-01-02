@@ -9,8 +9,23 @@
       "description": "Path to the schema version (e.g., '/api/v1/schema.json')"
     },
     "provider": {
-      "type": "string",
-      "description": "Provider name (e.g., 'EE', 'Three')"
+      "type": "object",
+      "description": "Provider information",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Provider name (e.g., 'EE', 'Three')"
+        },
+        "website": {
+          "type": "string",
+          "description": "Provider website URL"
+        },
+        "logo": {
+          "type": "string",
+          "description": "Provider logo URL"
+        }
+      }
     },
     "plans": {
       "type": "array",
@@ -147,7 +162,6 @@
       }
     }
   }
-}
       }
     }
   }

@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "VOXI",
+  "provider": {
+    "name": "VOXI",
+    "website": "https://voxi.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "20GB (3x Data = 60GB)",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -28,7 +32,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "3x Data promotion: 20GB base data boosted to 60GB. Unlimited data on 7 social media apps (Instagram, X, Facebook, WhatsApp, Pinterest, Snapchat, Messenger) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marked as 'Our best seller'."
+        "notes": "3x Data promotion: 20GB base data boosted to 60GB. Unlimited data on 7 social media apps (Instagram, X, Facebook, WhatsApp, Pinterest, Snapchat, Messenger) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marked as 'Our best seller'.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -40,7 +45,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -57,7 +62,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Unlimited data on 15 apps: Social Media (7 apps) + Music (8 apps: Spotify, Apple Music, Tidal, Amazon Music, Deezer, SoundCloud, Napster, Audiomack) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'Great for Spotify lovers'."
+        "notes": "Unlimited data on 15 apps: Social Media (7 apps) + Music (8 apps: Spotify, Apple Music, Tidal, Amazon Music, Deezer, SoundCloud, Napster, Audiomack) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'Great for Spotify lovers'.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -69,7 +75,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -86,7 +92,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "3x Data promotion: 35GB base data boosted to 105GB. Unlimited data on 21 apps: Social Media (7 apps) + Music (8 apps) + Video (6 apps: YouTube, TikTok, Netflix, TVPlayer, Prime Video, My5, UKTV Play) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'Great for TikTok users'."
+        "notes": "3x Data promotion: 35GB base data boosted to 105GB. Unlimited data on 21 apps: Social Media (7 apps) + Music (8 apps) + Video (6 apps: YouTube, TikTok, Netflix, TVPlayer, Prime Video, My5, UKTV Play) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'Great for TikTok users'.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -98,7 +105,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -115,7 +122,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Unlimited data on 21 apps: Social Media (7 apps) + Music (8 apps) + Video (6 apps: YouTube, TikTok, Netflix, TVPlayer, Prime Video, My5, UKTV Play) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'Great for high data users'."
+        "notes": "Unlimited data on 21 apps: Social Media (7 apps) + Music (8 apps) + Video (6 apps: YouTube, TikTok, Netflix, TVPlayer, Prime Video, My5, UKTV Play) - excluding 3rd party ads/apps/websites. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'Great for high data users'.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -127,7 +135,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -144,7 +152,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Save £5 promotion (was £35, now £30). Unlimited data for everything including social media. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'For those who want it all'."
+        "notes": "Save £5 promotion (was £35, now £30). Unlimited data for everything including social media. Rolling 30-day contract, cancel anytime. eSIM available. Marketed as 'For those who want it all'.",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

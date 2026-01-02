@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Smarty",
+  "provider": {
+    "name": "Smarty",
+    "website": "https://smarty.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "Unlimited",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -29,7 +33,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Promotional offer: Unlimited data for just £18 (regular price £20). 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Promotional offer: Unlimited data for just £18 (regular price £20). 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -41,7 +46,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -59,7 +64,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -71,7 +77,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -89,7 +95,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -101,7 +108,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -119,7 +126,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -131,7 +139,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -149,7 +157,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -161,7 +170,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -179,7 +188,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -191,7 +201,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -209,7 +219,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Special offer: triple data promotion (base 8GB tripled to 24GB for £7). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Special offer: triple data promotion (base 8GB tripled to 24GB for £7). Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -221,7 +232,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -239,7 +250,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -251,7 +263,7 @@
       "texts": "0",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -269,7 +281,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -281,7 +294,7 @@
       "texts": "0",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -299,7 +312,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -311,7 +325,7 @@
       "texts": "0",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -329,7 +343,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -341,7 +356,7 @@
       "texts": "0",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -359,7 +374,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -371,7 +387,7 @@
       "texts": "0",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -389,7 +405,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -401,7 +418,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -419,7 +436,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Money Back plan - get money back for unused data (up to £3 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Money Back plan - get money back for unused data (up to £3 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -431,7 +449,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -449,7 +467,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Money Back plan - get money back for unused data (up to £2 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Money Back plan - get money back for unused data (up to £2 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -461,7 +480,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -479,7 +498,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Money Back plan - get money back for unused data (up to £1 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+        "notes": "Money Back plan - get money back for unused data (up to £1 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime.",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

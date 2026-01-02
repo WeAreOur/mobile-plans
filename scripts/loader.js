@@ -1,9 +1,18 @@
 const cache = new Map();
 
+// Base path for GitHub Pages deployment
+// - Empty for localhost (development)
+// - '/mobile-plans' for GitHub Pages production
+const BASE_PATH = (window.location.hostname === 'localhost' || 
+                   window.location.hostname === '127.0.0.1' ||
+                   window.location.hostname === '')
+  ? (window.location.pathname.startsWith('/mobile-plans') ? '/mobile-plans' : '')
+  : '/mobile-plans';
+
 export async function loadView(viewName, locale) {
   // Try locale-specific view first (e.g., providers-ar.html)
-  const localeView = `/views/${viewName}-${locale}.html`;
-  const defaultView = `/views/${viewName}.html`;
+  const localeView = `${BASE_PATH}/views/${viewName}-${locale}.html`;
+  const defaultView = `${BASE_PATH}/views/${viewName}.html`;
   
   const key = `view:${viewName}:${locale}`;
   if (cache.has(key)) return cache.get(key);
@@ -32,8 +41,8 @@ export async function loadStyle(styleName, locale) {
   
   // Build style URLs
   const urls = [
-    `/styles/${styleName}.css`,
-    isRTL && `/styles/${styleName}-rtl.css`
+    `${BASE_PATH}/styles/${styleName}.css`,
+    isRTL && `${BASE_PATH}/styles/${styleName}-rtl.css`
   ].filter(Boolean);
   
   // Remove old dynamic styles
@@ -53,8 +62,13 @@ export async function loadLocale(locale) {
   const key = `locale:${locale}`;
   if (cache.has(key)) return cache.get(key);
   
-  const response = await fetch(`/locales/${locale}.json`);
+  const response = await fetch(`${BASE_PATH}/locales/${locale}.json`);
   if (!response.ok) {
+    // Prevent infinite recursion if 'en' itself is not found
+    if (locale === 'en') {
+      console.error('Default locale (en) not found');
+      return {}; // Return empty translations object
+    }
     console.warn(`Locale not found: ${locale}, falling back to en`);
     return loadLocale('en');
   }
@@ -68,13 +82,13 @@ export async function loadData(country) {
   if (cache.has(key)) return cache.get(key);
   
   // Load country metadata
-  const metaResponse = await fetch(`/api/v1/${country}/meta.json`);
+  const metaResponse = await fetch(`${BASE_PATH}/api/v1/${country}/meta.json`);
   const meta = await metaResponse.json();
   
   // Load all provider files listed in meta
   const providerData = await Promise.all(
     meta.providers.map(async (filename) => {
-      const response = await fetch(`/api/v1/${country}/providers/${filename}`);
+      const response = await fetch(`${BASE_PATH}/api/v1/${country}/providers/${filename}`);
       return response.json();
     })
   );

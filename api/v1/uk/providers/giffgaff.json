@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Giffgaff",
+  "provider": {
+    "name": "Giffgaff",
+    "website": "https://giffgaff.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "6GB (18 month)",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "18 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -32,7 +36,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 18-month contract"
+        "notes": "O2 MVNO, 18-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -45,7 +50,7 @@
       "texts": "Unlimited",
       "contractLength": "18 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -61,7 +66,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 18-month contract"
+        "notes": "O2 MVNO, 18-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -74,7 +80,7 @@
       "texts": "Unlimited",
       "contractLength": "18 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -90,7 +96,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 18-month contract"
+        "notes": "O2 MVNO, 18-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -103,7 +110,7 @@
       "texts": "Unlimited",
       "contractLength": "18 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -119,7 +126,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 18-month contract"
+        "notes": "O2 MVNO, 18-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -132,7 +140,7 @@
       "texts": "Unlimited",
       "contractLength": "18 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -148,7 +156,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 18-month contract"
+        "notes": "O2 MVNO, 18-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -161,7 +170,7 @@
       "texts": "Unlimited",
       "contractLength": "18 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -177,7 +186,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 18-month contract"
+        "notes": "O2 MVNO, 18-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -190,7 +200,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -206,7 +216,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -219,7 +230,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -235,7 +246,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -248,7 +260,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -264,7 +276,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -277,7 +290,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -293,7 +306,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -306,7 +320,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -322,7 +336,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -335,7 +350,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -351,7 +366,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -364,7 +380,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -380,7 +396,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -393,7 +410,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -409,7 +426,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, 30-day rolling contract"
+        "notes": "O2 MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -422,7 +440,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -438,7 +456,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -451,7 +470,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -467,7 +486,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -480,7 +500,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -496,7 +516,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -509,7 +530,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -525,7 +546,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -538,7 +560,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -554,7 +576,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -567,7 +590,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -583,7 +606,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -596,7 +620,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -612,7 +636,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -625,7 +650,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -641,7 +666,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "O2 MVNO, PAYG Goodybag"
+        "notes": "O2 MVNO, PAYG Goodybag",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     }

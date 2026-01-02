@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Lebara",
+  "provider": {
+    "name": "Lebara",
+    "website": "https://lebara.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "5GB (12 month)",
@@ -11,7 +15,7 @@
       "texts": "1000",
       "contractLength": "12 months",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -28,7 +32,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. International calling specialist."
+        "notes": "Lebara MVNO on Vodafone network. International calling specialist.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -40,7 +45,7 @@
       "texts": "1000",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -57,7 +62,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. International calling specialist."
+        "notes": "Lebara MVNO on Vodafone network. International calling specialist.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -69,7 +75,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -86,7 +92,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network"
+        "notes": "Lebara MVNO on Vodafone network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -98,7 +105,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -115,7 +122,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network"
+        "notes": "Lebara MVNO on Vodafone network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -127,7 +135,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -144,7 +152,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. Increased international minutes allowance."
+        "notes": "Lebara MVNO on Vodafone network. Increased international minutes allowance.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -156,7 +165,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -173,7 +182,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. Increased international minutes allowance."
+        "notes": "Lebara MVNO on Vodafone network. Increased international minutes allowance.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -185,7 +195,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -202,7 +212,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. Unlimited international calling included."
+        "notes": "Lebara MVNO on Vodafone network. Unlimited international calling included.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -214,7 +225,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -231,7 +242,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. Unlimited international calling included."
+        "notes": "Lebara MVNO on Vodafone network. Unlimited international calling included.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -243,7 +255,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -260,7 +272,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network"
+        "notes": "Lebara MVNO on Vodafone network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -272,7 +285,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -289,7 +302,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network"
+        "notes": "Lebara MVNO on Vodafone network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -301,7 +315,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -318,7 +332,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. Premium plan with unlimited everything including international calls."
+        "notes": "Lebara MVNO on Vodafone network. Premium plan with unlimited everything including international calls.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -330,7 +345,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Vodafone",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -347,7 +362,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Lebara MVNO on Vodafone network. Premium plan with unlimited everything including international calls."
+        "notes": "Lebara MVNO on Vodafone network. Premium plan with unlimited everything including international calls.",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

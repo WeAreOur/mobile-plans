@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Tesco Mobile",
+  "provider": {
+    "name": "Tesco Mobile",
+    "website": "https://tescomobile.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "2GB (24 month)",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -28,7 +32,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -40,7 +45,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -57,7 +62,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -69,7 +75,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -86,7 +92,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Promotional Clubcard pricing, frozen for contract duration"
+        "notes": "Promotional Clubcard pricing, frozen for contract duration",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -98,7 +105,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -115,7 +122,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -127,7 +135,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -144,7 +152,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -156,7 +165,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -173,7 +182,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Promotional Clubcard pricing, frozen for contract duration"
+        "notes": "Promotional Clubcard pricing, frozen for contract duration",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -185,7 +195,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -202,7 +212,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -214,7 +225,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -231,7 +242,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -243,7 +255,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -260,7 +272,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -272,7 +285,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -289,7 +302,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -301,7 +315,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -318,7 +332,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -330,7 +345,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -347,7 +362,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Promotional Clubcard pricing with £40 gift card, frozen for contract duration"
+        "notes": "Promotional Clubcard pricing with £40 gift card, frozen for contract duration",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -359,7 +375,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -376,7 +392,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -388,7 +405,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -405,7 +422,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Tesco Mobile MVNO on O2 network"
+        "notes": "Tesco Mobile MVNO on O2 network",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

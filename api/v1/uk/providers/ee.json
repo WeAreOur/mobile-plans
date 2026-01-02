@@ -1,14 +1,18 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "EE",
+  "provider": {
+    "name": "EE",
+    "website": "https://ee.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "Data SIM - 5GB (24 month)",
       "price": 22,
       "currency": "GBP",
       "data": "5GB",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "24 months",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -29,11 +33,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Data-only plan with CPI price increases"
+        "notes": "Data-only plan with CPI price increases",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -41,8 +46,8 @@
       "price": 25,
       "currency": "GBP",
       "data": "25GB",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "24 months",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -62,11 +67,12 @@
             "notes": "EU roaming data"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -74,8 +80,8 @@
       "price": 27,
       "currency": "GBP",
       "data": "Unlimited",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "24 months",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -95,11 +101,12 @@
             "notes": "EU roaming limits"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -107,8 +114,8 @@
       "price": 30,
       "currency": "GBP",
       "data": "Unlimited",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "1 month",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -128,11 +135,12 @@
             "notes": "EU roaming data"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -140,8 +148,8 @@
       "price": 32,
       "currency": "GBP",
       "data": "Unlimited",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "24 months",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -161,11 +169,12 @@
             "notes": "EU roaming limits"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -173,8 +182,8 @@
       "price": 35,
       "currency": "GBP",
       "data": "Unlimited",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "1 month",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -194,11 +203,12 @@
             "notes": "EU roaming data"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -206,8 +216,8 @@
       "price": 36,
       "currency": "GBP",
       "data": "Unlimited",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "24 months",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -227,11 +237,12 @@
             "notes": "EU roaming limits"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -239,8 +250,8 @@
       "price": 39,
       "currency": "GBP",
       "data": "Unlimited",
-      "minutes": "N/A",
-      "texts": "N/A",
+      "minutes": "0",
+      "texts": "0",
       "contractLength": "1 month",
       "roaming": {
         "euDailyCharge": "£2.59/day",
@@ -260,11 +271,12 @@
             "notes": "EU roaming data"
           }
         ],
-        "confidence": "verified"
+        "confidence": "verified",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -294,11 +306,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Winter sale deal with speed cap at 100Mbps"
+        "notes": "Winter sale deal with speed cap at 100Mbps",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -328,11 +341,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Winter sale deal with speed cap at 100Mbps"
+        "notes": "Winter sale deal with speed cap at 100Mbps",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "CPI + 3.9%"
     },
     {
@@ -362,7 +376,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed"
+        "notes": "Uncapped speed",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -396,7 +411,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 10Mbps"
+        "notes": "Max speed 10Mbps",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -430,7 +446,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 100Mbps"
+        "notes": "Max speed 100Mbps",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -464,7 +481,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 10Mbps"
+        "notes": "Max speed 10Mbps",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -498,7 +516,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed"
+        "notes": "Uncapped speed",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -527,7 +546,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed, free EU roaming, unlimited smartwatch data"
+        "notes": "Uncapped speed, free EU roaming, unlimited smartwatch data",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -556,7 +576,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed, 5G+, free EU roaming, Inclusive Extra (Apple Music/Apple TV), priority coverage"
+        "notes": "Uncapped speed, 5G+, free EU roaming, Inclusive Extra (Apple Music/Apple TV), priority coverage",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -585,7 +606,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed, 5G+, free EU roaming, Inclusive Extra (Netflix/Google One), priority coverage"
+        "notes": "Uncapped speed, 5G+, free EU roaming, Inclusive Extra (Netflix/Google One), priority coverage",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -614,7 +636,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed, 5G+, free worldwide roaming, Inclusive Extra (premium options), priority coverage"
+        "notes": "Uncapped speed, 5G+, free worldwide roaming, Inclusive Extra (premium options), priority coverage",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -643,7 +666,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Uncapped speed, 5G+, free worldwide roaming, Inclusive Extra (Apple One/TNT Sports), priority coverage"
+        "notes": "Uncapped speed, 5G+, free worldwide roaming, Inclusive Extra (Apple One/TNT Sports), priority coverage",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -677,7 +701,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 10Mbps, 1-month rolling contract"
+        "notes": "Max speed 10Mbps, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -711,7 +736,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 100Mbps, 1-month rolling contract"
+        "notes": "Max speed 100Mbps, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -745,7 +771,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 10Mbps, 1-month rolling contract"
+        "notes": "Max speed 10Mbps, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -779,7 +806,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 100Mbps, 1-month rolling contract"
+        "notes": "Max speed 100Mbps, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,
@@ -808,7 +836,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Max speed 100Mbps, free EU roaming, unlimited smartwatch data, 1-month rolling contract"
+        "notes": "Max speed 100Mbps, free EU roaming, unlimited smartwatch data, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "EE",
       "5g": true,

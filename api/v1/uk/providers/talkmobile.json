@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Talkmobile",
+  "provider": {
+    "name": "Talkmobile",
+    "website": "https://talkmobile.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "2GB (30 days)",
@@ -29,11 +33,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 30-day rolling contract"
+        "notes": "Vodafone MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -63,11 +68,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 30-day rolling contract"
+        "notes": "Vodafone MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -97,11 +103,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 30-day rolling contract"
+        "notes": "Vodafone MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -131,11 +138,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 30-day rolling contract"
+        "notes": "Vodafone MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -165,11 +173,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 30-day rolling contract"
+        "notes": "Vodafone MVNO, 30-day rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -199,11 +208,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 12-month contract"
+        "notes": "Vodafone MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -233,11 +243,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 12-month contract"
+        "notes": "Vodafone MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -267,11 +278,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Vodafone MVNO, 12-month contract"
+        "notes": "Vodafone MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": false,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     }
   ]

@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "iD Mobile",
+  "provider": {
+    "name": "iD Mobile",
+    "website": "https://idmobile.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "4GB (1 month)",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -27,7 +31,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -40,7 +45,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -56,7 +61,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -69,7 +75,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -85,7 +91,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -98,7 +105,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -114,7 +121,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -127,7 +135,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -143,7 +151,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -156,7 +165,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -172,7 +181,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -185,7 +195,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -201,7 +211,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -214,7 +225,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -230,7 +241,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -243,7 +255,7 @@
       "texts": "Unlimited",
       "contractLength": "1 month",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -259,7 +271,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 1-month rolling contract"
+        "notes": "Three MVNO, 1-month rolling contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -272,7 +285,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -288,7 +301,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -301,7 +315,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -317,7 +331,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -330,7 +345,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -346,7 +361,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -359,7 +375,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -375,7 +391,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -388,7 +405,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -404,7 +421,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -417,7 +435,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -433,7 +451,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -446,7 +465,7 @@
       "texts": "Unlimited",
       "contractLength": "12 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -462,7 +481,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 12-month contract"
+        "notes": "Three MVNO, 12-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -475,7 +495,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -491,7 +511,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -504,7 +525,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -520,7 +541,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -533,7 +555,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -549,7 +571,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -562,7 +585,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -578,7 +601,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -591,7 +615,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -607,7 +631,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -620,7 +645,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -636,7 +661,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -649,7 +675,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -665,7 +691,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     },
@@ -678,7 +705,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "roaming": {
         "euDailyCharge": "Free",
@@ -694,7 +721,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, 24-month contract"
+        "notes": "Three MVNO, 24-month contract",
+        "lastReviewed": "2026-01-02"
       },
       "priceIncrease": "None"
     }

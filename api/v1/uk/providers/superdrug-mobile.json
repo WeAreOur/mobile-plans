@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "Superdrug Mobile",
+  "provider": {
+    "name": "Superdrug Mobile",
+    "website": "https://superdrugmobile.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "10GB",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -28,7 +32,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program"
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -40,7 +45,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -57,7 +62,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program"
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -69,7 +75,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -86,7 +92,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, promotional pricing"
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, promotional pricing",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -98,7 +105,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -115,7 +122,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, promotional pricing"
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, promotional pricing",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -127,7 +135,7 @@
       "texts": "Unlimited",
       "contractLength": "30 days",
       "network": "Three",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "None",
       "roaming": {
@@ -144,7 +152,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, premium unlimited plan"
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, premium unlimited plan",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]

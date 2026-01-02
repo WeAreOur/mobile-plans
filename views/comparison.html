@@ -128,7 +128,7 @@
     const tbody = document.getElementById('table-body');
     tbody.innerHTML = sortedProviders.map(plan => `
       <tr>
-        <td class="provider-cell">${plan.provider}</td>
+        <td class="provider-cell">${plan.provider.name}</td>
         <td>${plan.name}</td>
         <td class="price-cell">${plan.currency} ${plan.price}/mo</td>
         <td>${plan.data}</td>

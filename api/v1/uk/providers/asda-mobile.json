@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "ASDA Mobile",
+  "provider": {
+    "name": "ASDA Mobile",
+    "website": "https://asdamobile.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "3GB (12 month)",
@@ -29,11 +33,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -63,11 +68,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -97,11 +103,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -131,11 +138,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -165,11 +173,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -199,11 +208,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -233,11 +243,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -267,11 +278,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 5% cashback, Vodafone MVNO. Promotional: £6/month x6, then £15/month x18"
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO. Promotional: £6/month x6, then £15/month x18",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -301,11 +313,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     },
     {
@@ -335,11 +348,12 @@
           }
         ],
         "confidence": "verified",
-        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO",
+        "lastReviewed": "2026-01-02"
       },
       "network": "Vodafone",
       "5g": true,
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "priceIncrease": "None"
     }
   ]

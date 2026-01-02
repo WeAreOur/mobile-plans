@@ -1,6 +1,10 @@
 {
   "schema": "/api/v1/schema.json",
-  "provider": "O2",
+  "provider": {
+    "name": "O2",
+    "website": "https://o2.co.uk",
+    "logo": ""
+  },
   "plans": [
     {
       "name": "100GB Plus Plan",
@@ -11,7 +15,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "£2.50 per April",
       "roaming": {
@@ -29,7 +33,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Plus Plan includes: Data rollover, Choose 6 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+        "notes": "Plus Plan includes: Data rollover, Choose 6 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -41,7 +46,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "£2.50 per April",
       "roaming": {
@@ -59,19 +64,20 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Plus Plan includes: Roaming in 75 destinations, Choose 6 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+        "notes": "Plus Plan includes: Roaming in 75 destinations, Choose 6 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
       "name": "12GB Classic Plan",
-      "price": 15.00,
+      "price": 15.0,
       "currency": "GBP",
       "data": "12GB",
       "minutes": "Unlimited",
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "£2.50 per April",
       "roaming": {
@@ -89,7 +95,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Classic Plan includes: EU roaming, Choose 3 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+        "notes": "Classic Plan includes: EU roaming, Choose 3 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January.",
+        "lastReviewed": "2026-01-02"
       }
     },
     {
@@ -101,7 +108,7 @@
       "texts": "Unlimited",
       "contractLength": "24 months",
       "network": "O2",
-      "speedCap": null,
+      "speedCap": "Uncapped",
       "5g": true,
       "priceIncrease": "£2.50 per April",
       "roaming": {
@@ -119,7 +126,8 @@
           }
         ],
         "confidence": "verified",
-        "notes": "Ultimate Plan includes: Roaming in 123 worldwide destinations, Pick an Extra included for lifetime of plan, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+        "notes": "Ultimate Plan includes: Roaming in 123 worldwide destinations, Pick an Extra included for lifetime of plan, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January.",
+        "lastReviewed": "2026-01-02"
       }
     }
   ]
