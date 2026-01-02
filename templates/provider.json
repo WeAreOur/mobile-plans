@@ -1,16 +1,27 @@
 {
+  "schema": "/api/v1/schema.json",
   "provider": "Provider Name",
-  "name": "Plan Name",
-  "price": 0,
-  "currency": "GBP",
-  "data": "0GB",
-  "minutes": "Unlimited",
-  "texts": "Unlimited",
-  "contractLength": "30 days",
-  "status": "draft",
-  "metadata": {
-    "sourceUrl": "https://provider.com/plans",
-    "confidence": "community",
-    "notes": ""
-  }
+  "plans": [
+    {
+      "name": "Plan Name",
+      "price": 0,
+      "currency": "GBP",
+      "data": "0GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "status": "draft",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://provider.com/plans",
+            "accessDate": "YYYY-MM-DD",
+            "notes": "Plan details"
+          }
+        ],
+        "confidence": "community",
+        "notes": ""
+      }
+    }
+  ]
 }

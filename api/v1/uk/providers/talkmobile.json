@@ -1,0 +1,278 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Talkmobile",
+  "plans": [
+    {
+      "name": "2GB (30 days)",
+      "price": 5.95,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "2GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Rolling 30-day contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 30-day rolling contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "6GB (30 days)",
+      "price": 6.95,
+      "currency": "GBP",
+      "data": "6GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "6GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Rolling 30-day contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 30-day rolling contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "20GB (30 days)",
+      "price": 7.95,
+      "currency": "GBP",
+      "data": "20GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "20GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Rolling 30-day contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 30-day rolling contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "30GB (30 days)",
+      "price": 8.95,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "30GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Rolling 30-day contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 30-day rolling contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "50GB (30 days)",
+      "price": 9.95,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Rolling 30-day contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 30-day rolling contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "70GB (12 months)",
+      "price": 9.95,
+      "currency": "GBP",
+      "data": "70GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "70GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 12-month contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "100GB (12 months)",
+      "price": 11.95,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 12-month contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "200GB (12 months)",
+      "price": 14.95,
+      "currency": "GBP",
+      "data": "200GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "200GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://talkmobile.co.uk/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract. Unlimited minutes & texts included."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Vodafone MVNO, 12-month contract"
+      },
+      "network": "Vodafone",
+      "5g": false,
+      "speedCap": null,
+      "priceIncrease": "None"
+    }
+  ]
+}

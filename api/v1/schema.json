@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Provider Plans",
+  "type": "object",
+  "required": ["schema", "provider", "plans"],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "description": "Path to the schema version (e.g., '/api/v1/schema.json')"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Provider name (e.g., 'EE', 'Three')"
+    },
+    "plans": {
+      "type": "array",
+      "description": "Array of plans from this provider",
+      "items": {
+        "type": "object",
+        "required": ["name", "price", "currency", "data", "status", "metadata"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Plan name (e.g., 'Essential Plan', 'Unlimited Max')"
+          },
+    "price": {
+      "type": "number",
+      "description": "Monthly price"
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["GBP", "USD", "EUR"],
+      "description": "ISO currency code"
+    },
+    "data": {
+      "type": "string",
+      "description": "Data allowance (e.g., '50GB', 'Unlimited')"
+    },
+    "minutes": {
+      "type": "string",
+      "description": "Voice minutes (e.g., 'Unlimited', '500')"
+    },
+    "texts": {
+      "type": "string",
+      "description": "SMS allowance (e.g., 'Unlimited', '1000')"
+    },
+    "contractLength": {
+      "type": "string",
+      "description": "Contract term (e.g., '30 days', '12 months', 'Pay as you go')"
+    },
+    "network": {
+      "type": "string",
+      "description": "Network infrastructure provider (e.g., 'EE', 'Vodafone', 'Three', 'O2')"
+    },
+    "speedCap": {
+      "type": "string",
+      "description": "Maximum download speed cap (e.g., '10Mbps', '100Mbps', 'Uncapped', null if not applicable)"
+    },
+    "5g": {
+      "type": "boolean",
+      "description": "Whether 5G is available on this plan"
+    },
+    "priceIncrease": {
+      "type": "string",
+      "description": "Annual price increase policy (e.g., 'CPI + 3.9%', 'RPI + 3.9%', 'None', 'CPI only')"
+    },
+    "roaming": {
+      "type": "object",
+      "description": "Roaming information (EU roaming)",
+      "properties": {
+        "euDailyCharge": {
+          "type": "string",
+          "description": "Daily charge for EU roaming (e.g., '£2.59/day', 'None')"
+        },
+        "euDataLimit": {
+          "type": "string",
+          "description": "Data allowance when roaming in EU (e.g., '50GB', 'No set limit')"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional roaming details or conditions"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "incomplete", "complete"],
+      "description": "Data completeness status"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["sources"],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "description": "List of sources for this plan data (Wikipedia-style citations)",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["url", "accessDate"],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "description": "Source URL"
+              },
+              "accessDate": {
+                "type": "string",
+                "format": "date",
+                "description": "When this source was last accessed/verified (YYYY-MM-DD)"
+              },
+              "notes": {
+                "type": "string",
+                "description": "What this source covers (e.g., 'Plan pricing', 'Roaming data from MSE')"
+              },
+              "archiveUrl": {
+                "type": "string",
+                "format": "uri",
+                "description": "Archive.org snapshot URL"
+              }
+            }
+          }
+        },
+        "verifiedBy": {
+          "type": "string",
+          "description": "Who verified this data (provider account or trusted contributor)"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["official", "verified", "community", "disputed"],
+          "description": "Data confidence level"
+        },
+        "effectiveDate": {
+          "type": "string",
+          "format": "date",
+          "description": "When this plan became available"
+        },
+        "expiryDate": {
+          "type": "string",
+          "format": "date",
+          "description": "When this plan expires (if known)"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional context or caveats"
+        }
+      }
+    }
+  }
+}
+      }
+    }
+  }
+}

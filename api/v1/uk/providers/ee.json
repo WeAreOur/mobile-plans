@@ -1,0 +1,819 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "EE",
+  "plans": [
+    {
+      "name": "Data SIM - 5GB (24 month)",
+      "price": 22,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "5GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Data-only SIM plan. Price increases to £23.50 from 31 March 2026, then £25 from 31 March 2027 (CPI adjustments)"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming charges"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Data-only plan with CPI price increases"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - 25GB (24 month)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Data-only SIM with Stay Connected feature. Price increases to £26.50 from 31 March 2026, then £28 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - Unlimited Basic (24 month)",
+      "price": 27,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited data-only SIM. Price increases to £28.50 from 31 March 2026, then £30 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - Unlimited Basic (1 month)",
+      "price": 30,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited data-only SIM with 1-month flexibility"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - Unlimited Standard (24 month)",
+      "price": 32,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited data-only plan. Price increases to £33.50 from 31 March 2026, then £35 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - Unlimited Standard (1 month)",
+      "price": 35,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited data-only SIM with 1-month flexibility"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - Unlimited Premium (24 month)",
+      "price": 36,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Premium unlimited data-only plan. Price increases to £37.50 from 31 March 2026, then £39 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Data SIM - Unlimited Premium (1 month)",
+      "price": 39,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "N/A",
+      "texts": "N/A",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/data-sim",
+            "accessDate": "2026-01-01",
+            "notes": "Premium unlimited data-only SIM with 1-month flexibility"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "25GB SIM (Deal)",
+      "price": 19,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=deals",
+            "accessDate": "2026-01-01",
+            "notes": "Winter sale deal. Max speed 100Mbps. Price increases to £21.50 from 31 March 2026, then £24 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Winter sale deal with speed cap at 100Mbps"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "100GB SIM (Deal)",
+      "price": 21,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=deals",
+            "accessDate": "2026-01-01",
+            "notes": "Winter sale deal. Max speed 100Mbps. Price increases to £23.50 from 31 March 2026, then £26 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Winter sale deal with speed cap at 100Mbps"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Essentials Max",
+      "price": 23,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=deals",
+            "accessDate": "2026-01-01",
+            "notes": "Uncapped speed unlimited plan. Price increases to £25.50 from 31 March 2026, then £28 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "5GB No Frills",
+      "price": 22,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "5GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "No Frills plan with 10Mbps speed cap. Price increases to £24.50 from 31 March 2026, then £27 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 10Mbps"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "10Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "25GB Essentials",
+      "price": 25,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Essentials plan with 100Mbps speed cap. Price increases to £27.50 from 31 March 2026, then £30 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 100Mbps"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited No Frills",
+      "price": 27,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited No Frills with 10Mbps speed cap. Price increases to £29.50 from 31 March 2026, then £32 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 10Mbps"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "10Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Essentials Max (Standard)",
+      "price": 32,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Uncapped speed unlimited plan. Price increases to £34.50 from 31 March 2026, then £37 from 31 March 2027"
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Essentials Plus Max",
+      "price": 36,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free (EU)",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Premium plan with uncapped speed and free EU roaming. Price increases to £38.50 from 31 March 2026, then £41 from 31 March 2027. Includes unlimited data for smartwatch."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed, free EU roaming, unlimited smartwatch data"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited All Rounder for iPhone",
+      "price": 42,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free (EU)",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Premium iPhone plan with 5G+, uncapped speed, free EU roaming. Price increases to £44.50 from 31 March 2026, then £47 from 31 March 2027. Includes Inclusive Extra (Apple Music or Apple TV), unlimited smartwatch data, priority coverage."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed, 5G+, free EU roaming, Inclusive Extra (Apple Music/Apple TV), priority coverage"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "Uncapped",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited All Rounder",
+      "price": 42,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free (EU)",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Premium plan with 5G+, uncapped speed, free EU roaming. Price increases to £44.50 from 31 March 2026, then £47 from 31 March 2027. Includes Inclusive Extra (Netflix Standard or Google One Premium 2TB), unlimited smartwatch data, priority coverage."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed, 5G+, free EU roaming, Inclusive Extra (Netflix/Google One), priority coverage"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "Uncapped",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Full Works",
+      "price": 48,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free (EU and further)",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Top-tier plan with 5G+, uncapped speed, free roaming in EU and beyond. Price increases to £50.50 from 31 March 2026, then £53 from 31 March 2027. Includes Inclusive Extra (Netflix Premium, TNT Sports, Xbox Game Pass Ultimate, or Google AI Pro), unlimited smartwatch data, priority coverage."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed, 5G+, free worldwide roaming, Inclusive Extra (premium options), priority coverage"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "Uncapped",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Full Works for iPhone",
+      "price": 48,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free (EU and further)",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Top-tier iPhone plan with 5G+, uncapped speed, free roaming in EU and beyond. Price increases to £50.50 from 31 March 2026, then £53 from 31 March 2027. Includes Inclusive Extra (Apple One or TNT Sports), unlimited smartwatch data, priority coverage."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speed, 5G+, free worldwide roaming, Inclusive Extra (Apple One/TNT Sports), priority coverage"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "Uncapped",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "5GB No Frills (1 month)",
+      "price": 27,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "5GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "No Frills 1-month rolling contract with 10Mbps speed cap. No price increases - rolling monthly."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 10Mbps, 1-month rolling contract"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "10Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "25GB Essentials (1 month)",
+      "price": 30,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Essentials 1-month rolling contract with 100Mbps speed cap. No price increases - rolling monthly."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 100Mbps, 1-month rolling contract"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited No Frills (1 month)",
+      "price": 35,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited No Frills 1-month rolling contract with 10Mbps speed cap. No price increases - rolling monthly."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 10Mbps, 1-month rolling contract"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "10Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Essentials (1 month)",
+      "price": 38,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "£2.59/day",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Unlimited Essentials 1-month rolling contract with 100Mbps speed cap. No price increases - rolling monthly."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming limits"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 100Mbps, 1-month rolling contract"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    },
+    {
+      "name": "Unlimited Essentials Plus (1 month)",
+      "price": 41,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "roaming": {
+        "euDailyCharge": "Free (EU)",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://ee.co.uk/mobile/sim-only-deals?planType=standard",
+            "accessDate": "2026-01-01",
+            "notes": "Premium 1-month rolling contract with 100Mbps speed cap and free EU roaming. Includes unlimited smartwatch data. No price increases - rolling monthly."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Max speed 100Mbps, free EU roaming, unlimited smartwatch data, 1-month rolling contract"
+      },
+      "network": "EE",
+      "5g": true,
+      "speedCap": "100Mbps",
+      "priceIncrease": "CPI + 3.9%"
+    }
+  ]
+}

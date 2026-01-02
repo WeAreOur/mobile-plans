@@ -6,10 +6,66 @@ All notable changes to the Mobile Plans project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-01-02
+
+### Added
+- All 15 UK mobile providers with verified, complete data (189 plans total)
+  - **MNOs**: EE (25 plans), Three (3 plans), Vodafone (8 plans), O2 (4 plans)
+  - **O2 MVNOs**: GiffGaff (22), Tesco Mobile (14), Lycamobile (24), Sky Mobile (8)
+  - **Vodafone MVNOs**: ASDA Mobile (10), Talkmobile (8), Lebara (12), Voxi (5)
+  - **Three MVNOs**: iD Mobile (25), Superdrug Mobile (5), Smarty (16)
+- Enhanced schema with additional fields:
+  - `network`: Network operator (EE, Vodafone, Three, O2)
+  - `speedCap`: Speed limit (e.g., "10Mbps", "100Mbps", "Uncapped")
+  - `5g`: Boolean for 5G support
+  - `priceIncrease`: Annual price rise mechanism (e.g., "CPI + 3.9%", "None", "£2.50 per April")
+- Sorting functionality with 6 options (price, data, provider - ascending/descending)
+- Migration scripts for batch schema updates
+
 ### Changed
+- **BREAKING**: Restructured data directory to `/api/v1/` for cleaner API-style URLs
+  - Old: `/data/mobile-plans/uk/ee.json` → New: `/api/v1/uk/providers/ee.json`
+  - Schema: `/data/schema/v1.json` → `/api/v1/schema.json`
+  - Country metadata: `/data/mobile-plans/uk/meta.json` → `/api/v1/uk/meta.json`
+  - Versioning now built into API path for future compatibility
+- Views now filter to show only verified and complete plans
+- Replaced "verified" confidence badges with "Last reviewed: DATE" display
+- Moved review date from card header to footer for better UX
+- Changed "EU Roaming" to "Roaming" for international applicability
+- Improved roaming display: "Free EU" vs "Free EU (up to 25GB)" for clarity
+- Hidden language and country selectors (only one option available currently)
+- Fixed Sky Mobile roaming to show £2/day charge
+- Fixed Sky Mobile plans to show unlimited calls and texts
+
+### Removed
+- Provider verification process documentation (process not yet defined)
+- "Provider-verified" feature from README (not yet implemented)
+- Draft and community confidence plans from public views
+
+### Fixed
+- Sky Mobile plans now correctly show unlimited calls and texts (not data-only)
+- Roaming display no longer shows "Unknown" - displays "Free EU" instead
+- Eliminated duplicate "Data-only plan" text in Sky Mobile notes
+
+## [0.1.0] - 2026-01-01
+
+### Changed
+- **BREAKING**: Restructured data schema to provider-centric model
+  - Each provider now has single JSON file with `plans[]` array
+  - Consolidated 12 individual plan files into 8 provider files
+  - Updated schema to use Wikipedia-style `sources[]` citations instead of single `sourceUrl`
+  - Each source citation includes: `url`, `accessDate`, `notes`, and optional `archiveUrl`
+  - Updated loader.js to flatten `provider.plans[]` into individual plans
+  - Updated template files to reflect new structure
 - Removed `lastUpdated` and `updatedBy` fields from data schema (will automate via CI in future)
 - Renamed PROJECT_SUMMARY.md to CHANGELOG.md
 - Added AI disclaimer to README
+
+### Migration Notes
+- Old format: One file per plan (e.g., `ee.json`, `ee-full-works.json`)
+- New format: One file per provider with plans array (e.g., `ee.json` contains both Essential and Full Works plans)
+- Metadata now uses `sources[]` array instead of `sourceUrl` string
+- Loader automatically flattens provider.plans[] for backwards compatibility with views
 
 ## [0.1.0] - 2026-01-01
 
@@ -55,7 +111,6 @@ A fully functional, community-driven mobile plan comparison platform inspired by
    - Privacy Policy
    - Community Charter
    - Governance model
-   - Provider verification process
 
 6. **Developer Experience**
    - Clear contribution guidelines
@@ -75,14 +130,16 @@ mobile-plans/
 ├── CONTRIBUTING.md         ✅ Contribution guide
 ├── AI_PLAN_PROMPT.md       ✅ Development roadmap
 │
-├── data/
-│   ├── schema/v1.json      ✅ Data schema
-│   └── mobile-plans/uk/    ✅ Sample data
-│       ├── meta.json
-│       ├── ee.json
-│       ├── three.json
-│       ├── o2.json
-│       └── vodafone.json
+├── api/
+│   └── v1/
+│       ├── schema.json      ✅ Data schema
+│       └── uk/              ✅ UK market data
+│           ├── meta.json
+│           └── providers/
+│               ├── ee.json
+│               ├── three.json
+│               ├── o2.json
+│               └── vodafone.json
 │
 ├── views/
 │   ├── providers.html      ✅ Card view
@@ -108,8 +165,7 @@ mobile-plans/
 ├── legal/
 │   ├── LICENSE.md          ✅ Licenses
 │   ├── TERMS.md            ✅ Terms of Service
-│   ├── PRIVACY.md          ✅ Privacy Policy
-│   └── PROVIDER_VERIFICATION.md ✅ Verification guide
+│   └── PRIVACY.md          ✅ Privacy Policy
 │
 ├── docs/
 │   └── GOVERNANCE.md       ✅ Governance model
@@ -167,7 +223,7 @@ mobile-plans/
 1. **Data API**:
    ```javascript
    // Fetch UK data
-   const res = await fetch('/data/mobile-plans/uk/meta.json');
+   const res = await fetch('/api/v1/uk/meta.json');
    const meta = await res.json();
    ```
 

@@ -1,0 +1,346 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "ASDA Mobile",
+  "plans": [
+    {
+      "name": "3GB (12 month)",
+      "price": 5,
+      "currency": "GBP",
+      "data": "3GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "3GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 2% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "3GB (24 month)",
+      "price": 5,
+      "currency": "GBP",
+      "data": "3GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "3GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 5% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "10GB (12 month)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "10GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "10GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 2% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "10GB (24 month)",
+      "price": 7,
+      "currency": "GBP",
+      "data": "10GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "10GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 5% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "25GB (12 month)",
+      "price": 14,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 2% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "25GB (24 month)",
+      "price": 13,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 5% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "60GB (12 month)",
+      "price": 17,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "60GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 2% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "60GB (24 month - Promotional)",
+      "price": 6,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "60GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Promotional pricing: £6/month for first 6 months, then £15/month for remaining 18 months. Includes 5% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO. Promotional: £6/month x6, then £15/month x18"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "Unlimited (12 month)",
+      "price": 22,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 2% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 2% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    },
+    {
+      "name": "Unlimited (24 month)",
+      "price": 19,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://mobile.asda.com/pay-monthly-sim-only",
+            "accessDate": "2026-01-01",
+            "notes": "5G enabled. Includes 5% ASDA Rewards cashback on monthly cost."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "Free EU roaming - uses Vodafone network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G enabled, 5% cashback, Vodafone MVNO"
+      },
+      "network": "Vodafone",
+      "5g": true,
+      "speedCap": null,
+      "priceIncrease": "None"
+    }
+  ]
+}

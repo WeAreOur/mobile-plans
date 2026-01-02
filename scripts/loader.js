@@ -68,15 +68,23 @@ export async function loadData(country) {
   if (cache.has(key)) return cache.get(key);
   
   // Load country metadata
-  const metaResponse = await fetch(`/data/mobile-plans/${country}/meta.json`);
+  const metaResponse = await fetch(`/api/v1/${country}/meta.json`);
   const meta = await metaResponse.json();
   
   // Load all provider files listed in meta
-  const providers = await Promise.all(
+  const providerData = await Promise.all(
     meta.providers.map(async (filename) => {
-      const response = await fetch(`/data/mobile-plans/${country}/${filename}`);
+      const response = await fetch(`/api/v1/${country}/providers/${filename}`);
       return response.json();
     })
+  );
+  
+  // Flatten provider.plans[] into individual plans with provider field
+  const providers = providerData.flatMap(providerFile => 
+    providerFile.plans.map(plan => ({
+      ...plan,
+      provider: providerFile.provider
+    }))
   );
   
   const data = { meta, providers };

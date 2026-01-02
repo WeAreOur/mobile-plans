@@ -1,0 +1,412 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Tesco Mobile",
+  "plans": [
+    {
+      "name": "2GB (24 month)",
+      "price": 7.5,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "2GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees. Frozen prices for contract duration."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "2GB (12 month)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "2GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "12GB (Clubcard Price) (12 month)",
+      "price": 9.5,
+      "currency": "GBP",
+      "data": "12GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "12GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Clubcard Price £9.50 (regular price £11). Frozen for contract. Offer ends 1st February 2026. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Promotional Clubcard pricing, frozen for contract duration"
+      }
+    },
+    {
+      "name": "12GB (24 month)",
+      "price": 10,
+      "currency": "GBP",
+      "data": "12GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "12GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "30GB (24 month)",
+      "price": 12.5,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "30GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "60GB (Clubcard Price) (12 month)",
+      "price": 14,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "60GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Clubcard Price £14 (regular price £17.50). Frozen for contract. Offer ends 1st February 2026. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Promotional Clubcard pricing, frozen for contract duration"
+      }
+    },
+    {
+      "name": "60GB (24 month)",
+      "price": 15,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "60GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "30GB (12 month)",
+      "price": 15,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "30GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "100GB (24 month)",
+      "price": 17.5,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "100GB (12 month)",
+      "price": 20,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "250GB (24 month)",
+      "price": 22.5,
+      "currency": "GBP",
+      "data": "250GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "250GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "Unlimited Data (Clubcard Price) (12 month)",
+      "price": 24,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Clubcard Price £24 (regular price £30). Frozen for contract. £40 Gift card offer. Offer ends 1st February 2026. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Promotional Clubcard pricing with £40 gift card, frozen for contract duration"
+      }
+    },
+    {
+      "name": "Unlimited Data (24 month)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "24 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    },
+    {
+      "name": "250GB (12 month)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "250GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "250GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.tescomobile.com/shop/sim-only-deals/sim-only-contracts",
+            "accessDate": "2026-01-01",
+            "notes": "12 month contract. Works on 4G & 5G. No EU Roaming fees."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Tesco Mobile MVNO on O2 network"
+      }
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Lycamobile",
+  "plans": [
+    {
+      "name": "UK Plan Smart",
+      "price": 2.50,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "1000",
+      "texts": "1000",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU Roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#30-day-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Deal - first purchase promotional price. Regular price £5/30 days after initial period."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Christmas Deal promotional pricing: £2.50 first purchase, then £5/month. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "National Plus",
+      "price": 5,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#30-day-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Deal - first purchase promotional price. Regular price £10/30 days after initial period."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Christmas Deal promotional pricing: £5 first purchase, then £10/month. Includes 100 international minutes. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Super Extra",
+      "price": 7.50,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#30-day-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Deal - first purchase promotional price. Regular price £15/30 days after initial period."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Christmas Deal promotional pricing: £7.50 first purchase, then £15/month. Includes EU, China & India data roaming. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Value Plus",
+      "price": 18,
+      "currency": "GBP",
+      "data": "80GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#30-day-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Standard pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Includes 100 international minutes. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Mega Plus",
+      "price": 10,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#30-day-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Deal - first purchase promotional price. Regular price £20/30 days after initial period."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Christmas Deal promotional pricing: £10 first purchase, then £20/month. Includes 100 international minutes. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Unlimited",
+      "price": 12.50,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "35GB",
+        "notes": "EU & India roaming with 35GB data cap"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#30-day-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Deal - first purchase promotional price. Regular price £25/30 days after initial period."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Christmas Deal promotional pricing: £12.50 first purchase, then £25/month. Includes 100 international minutes. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Smart 12 month",
+      "price": 4.50,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "1000",
+      "texts": "1000",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month plan. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "National Plus 12 month",
+      "price": 9,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract plan with 5GB Extra data promotion (base 25GB + 5GB extra = 30GB)"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month plan. Includes 100 international minutes. 5GB Extra promotion: now get 30GB. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Super Extra 12 month",
+      "price": 13.50,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month plan. Includes EU, China & India data roaming. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Mega Plus 12 month",
+      "price": 18,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month plan. Includes 100 international minutes. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Unlimited 12 month",
+      "price": 22.50,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month plan. Includes 100 international minutes. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Smart 24 month",
+      "price": 4,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "1000",
+      "texts": "1000",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#24-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "24-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "24-month plan. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "National Plus 24 month",
+      "price": 8,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#24-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "24-month contract plan with 5GB Extra data promotion (base 25GB + 5GB extra = 30GB)"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "24-month plan. Includes 100 international minutes. 5GB Extra promotion: now get 30GB. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Super Extra 24 month",
+      "price": 12,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#24-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "24-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "24-month plan. Includes EU, China & India data roaming. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Mega Plus 24 month",
+      "price": 16,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#24-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "24-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "24-month plan. Includes 100 international minutes. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Unlimited 24 month",
+      "price": 20,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#24-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "24-month contract plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "24-month plan. Includes 100 international minutes. Price locked for contract duration. eSIM available."
+      }
+    },
+    {
+      "name": "China 100GB",
+      "price": 20,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "International calling specialist plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "International calling plan: 1314 minutes to call China from UK, 100 minutes to call EU and Hong Kong from UK. Unlimited UK calls and texts. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "China 60GB",
+      "price": 12.99,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "International calling specialist plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "International calling plan: 520 minutes to call China from UK, 100 minutes to call EU countries and Hong Kong from UK. Unlimited UK calls and texts. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "All In One 10",
+      "price": 9.90,
+      "currency": "GBP",
+      "data": "6GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU & China roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "International calling plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Unlimited UK calls and texts. 200 international minutes. EU & China roaming included. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "All in one Plus 15",
+      "price": 15,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "International calling plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Unlimited UK minutes and texts. Unlimited Lyca to Lyca minutes and texts. EU, China & India data roaming included. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "All In One Plus 20",
+      "price": 20,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "International calling plan with 50GB Extra data promotion (base 50GB + 50GB extra = 100GB)"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "50GB Extra promotion: now get 100GB. Unlimited UK calls and texts. Unlimited international minutes. EU, China & India data roaming included. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "International S",
+      "price": 10,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "1000",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "International calling specialist plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "1000 international minutes. Unlimited Lyca to Lyca calls. EU roaming included. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "UK Plan Unlimited Plus",
+      "price": 30,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU, China & India data roaming"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "High data plan with unlimited international calling"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Unlimited international minutes. Unlimited UK calls and texts. EU, China & India data roaming. 30-day rolling plan. eSIM available."
+      }
+    },
+    {
+      "name": "AloTurka L",
+      "price": 25,
+      "currency": "GBP",
+      "data": "35GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": null,
+        "notes": "EU and Turkey roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lycamobile.co.uk/en/bundles/pay-as-you-go-sim-deals/#international-plans",
+            "accessDate": "2026-01-01",
+            "notes": "Turkey-focused international plan"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Turkey specialist plan. Unlimited UK calls and texts. Choice of either 100 minutes to EU or 50 minutes to Turkey. EU and Turkey roaming. 30-day rolling plan. eSIM available."
+      }
+    }
+  ]
+}

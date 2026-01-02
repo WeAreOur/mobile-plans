@@ -1,0 +1,93 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Three",
+  "plans": [
+    {
+      "name": "25GB Lite (24 month)",
+      "price": 7,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "RPI + 3.9%",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.three.co.uk/shop/sim-only/pay-monthly",
+            "accessDate": "2026-01-01",
+            "notes": "24 month Lite plan. 6 months half price (was £14). Price increases: £7.95 from 1 Apr 26, £15.90 from Jul 26, £17.80 from 1 Apr 27. Includes 5G at no extra cost, Three+ Rewards."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MNO, promotional pricing for first 6 months"
+      }
+    },
+    {
+      "name": "120GB Lite (24 month)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "120GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "RPI + 3.9%",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "120GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.three.co.uk/shop/sim-only/pay-monthly",
+            "accessDate": "2026-01-01",
+            "notes": "24 month Lite plan. 6 months half price (was £16). Price increases: £9.15 from 1 Apr 26, £18.30 from Jul 26, £20.60 from 1 Apr 27. Includes 5G at no extra cost, Three+ Rewards."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MNO, promotional pricing for first 6 months"
+      }
+    },
+    {
+      "name": "Unlimited Lite (24 month)",
+      "price": 23,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "RPI + 3.9%",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.three.co.uk/shop/sim-only/pay-monthly",
+            "accessDate": "2026-01-01",
+            "notes": "24 month Lite plan with unlimited data. Winter Sale - Only £23. Price increases: £25.30 from 1 Apr 26, £27.60 from 1 Apr 27. Includes 5G at no extra cost, Three+ Rewards."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MNO, winter sale promotional pricing"
+      }
+    }
+  ]
+}

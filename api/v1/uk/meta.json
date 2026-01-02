@@ -1,0 +1,27 @@
+{
+  "country": "United Kingdom",
+  "countryCode": "UK",
+  "currency": "GBP",
+  "rtl": false,
+  "lastUpdated": "2026-01-01",
+  "providers": [
+    "asda-mobile.json",
+    "ee.json",
+    "giffgaff.json",
+    "id-mobile.json",
+    "lebara.json",
+    "lycamobile.json",
+    "o2.json",
+    "sky-mobile.json",
+    "smarty.json",
+    "superdrug-mobile.json",
+    "talkmobile.json",
+    "tesco-mobile.json",
+    "three.json",
+    "vodafone.json",
+    "voxi.json"
+  ],
+  "maintainers": [
+    "github:gatsby"
+  ]
+}

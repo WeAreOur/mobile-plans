@@ -1,0 +1,649 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Giffgaff",
+  "plans": [
+    {
+      "name": "6GB (18 month)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "6GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "18 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "6GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "18 month contract. Get the most data for your money. Change your plan anytime. No credit checks."
+          },
+          {
+            "url": "https://www.moneysavingexpert.com/travel/cheap-mobile-roaming/",
+            "accessDate": "2026-01-01",
+            "notes": "EU roaming - uses O2 network"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 18-month contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "25GB (18 month)",
+      "price": 10,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "18 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "18 month contract"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 18-month contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "50GB (18 month)",
+      "price": 12,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "18 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "18 month contract"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 18-month contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "100GB (18 month)",
+      "price": 15,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "18 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "18 month contract"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 18-month contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "200GB (18 month)",
+      "price": 20,
+      "currency": "GBP",
+      "data": "200GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "18 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "200GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "18 month contract"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 18-month contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "Unlimited (18 month)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "18 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "18 month contract with unlimited data"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 18-month contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "2GB (Monthly rolling)",
+      "price": 6,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "2GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost. Switch your plan each month."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "5GB (Monthly rolling)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "5GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "20GB (Monthly rolling)",
+      "price": 10,
+      "currency": "GBP",
+      "data": "20GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "20GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "26GB (Monthly rolling)",
+      "price": 12,
+      "currency": "GBP",
+      "data": "26GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "26GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "50GB (Monthly rolling)",
+      "price": 15,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "100GB (Monthly rolling)",
+      "price": 20,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "200GB (Monthly rolling)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "200GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "200GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "Unlimited (Monthly rolling)",
+      "price": 35,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Monthly rolling plan with unlimited data. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, 30-day rolling contract"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "1GB (PAYG)",
+      "price": 6,
+      "currency": "GBP",
+      "data": "1GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "1GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). One month plan with absolute freedom and flexibility. 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "4GB (PAYG)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "4GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "4GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "15GB (PAYG)",
+      "price": 10,
+      "currency": "GBP",
+      "data": "15GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "15GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "25GB (PAYG)",
+      "price": 12,
+      "currency": "GBP",
+      "data": "25GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "25GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "30GB (PAYG)",
+      "price": 15,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "30GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "80GB (PAYG)",
+      "price": 20,
+      "currency": "GBP",
+      "data": "80GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "80GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "120GB (PAYG)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "120GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "120GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    },
+    {
+      "name": "200GB (PAYG)",
+      "price": 35,
+      "currency": "GBP",
+      "data": "200GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "200GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.giffgaff.com/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Pay as you go plan (Goodybag). 5G speeds at no extra cost."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "O2 MVNO, PAYG Goodybag"
+      },
+      "priceIncrease": "None"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Lebara",
+  "plans": [
+    {
+      "name": "5GB (12 month)",
+      "price": 4.5,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "1000",
+      "texts": "1000",
+      "contractLength": "12 months",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "5GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12 month plan. 1000 UK minutes & texts, 100 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. International calling specialist."
+      }
+    },
+    {
+      "name": "5GB (30 day)",
+      "price": 5,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "1000",
+      "texts": "1000",
+      "contractLength": "30 days",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "5GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?30-day-plan",
+            "accessDate": "2026-01-01",
+            "notes": "30 day rolling plan. 1000 UK minutes & texts, 100 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. International calling specialist."
+      }
+    },
+    {
+      "name": "30GB (12 month)",
+      "price": 9,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "30GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12 month plan. Unlimited UK minutes & texts, 100 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network"
+      }
+    },
+    {
+      "name": "30GB (30 day)",
+      "price": 10,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "30GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?30-day-plan",
+            "accessDate": "2026-01-01",
+            "notes": "30 day rolling plan marked 'Great Value'. Unlimited UK minutes & texts, 100 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network"
+      }
+    },
+    {
+      "name": "50GB (12 month)",
+      "price": 13.5,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12 month plan. Unlimited UK minutes & texts, 500 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. Increased international minutes allowance."
+      }
+    },
+    {
+      "name": "50GB (30 day)",
+      "price": 15,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "50GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?30-day-plan",
+            "accessDate": "2026-01-01",
+            "notes": "30 day rolling plan. Unlimited UK minutes & texts, 500 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. Increased international minutes allowance."
+      }
+    },
+    {
+      "name": "100GB (12 month)",
+      "price": 18,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12 month plan. Unlimited UK minutes & texts, Unlimited International minutes to 42 destinations."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. Unlimited international calling included."
+      }
+    },
+    {
+      "name": "100GB (30 day)",
+      "price": 20,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "100GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?30-day-plan",
+            "accessDate": "2026-01-01",
+            "notes": "30 day rolling plan. Unlimited UK minutes & texts, Unlimited International minutes to 42 destinations."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. Unlimited international calling included."
+      }
+    },
+    {
+      "name": "Unlimited Data (12 month)",
+      "price": 22.5,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12 month plan with unlimited data. Unlimited UK minutes & texts, 100 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network"
+      }
+    },
+    {
+      "name": "Unlimited Data (30 day)",
+      "price": 25,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?30-day-plan",
+            "accessDate": "2026-01-01",
+            "notes": "30 day rolling plan with unlimited data. Unlimited UK minutes & texts, 100 International minutes included."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network"
+      }
+    },
+    {
+      "name": "Unlimited Plus (12 month)",
+      "price": 27,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?12-month-plan",
+            "accessDate": "2026-01-01",
+            "notes": "12 month plan. Unlimited data, Unlimited UK minutes & texts, Unlimited International minutes to 42 destinations."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. Premium plan with unlimited everything including international calls."
+      }
+    },
+    {
+      "name": "Unlimited Plus (30 day)",
+      "price": 30,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "Unlimited"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.lebara.co.uk/en/best-sim-only-deals.html?30-day-plan",
+            "accessDate": "2026-01-01",
+            "notes": "30 day rolling plan. Unlimited data, Unlimited UK minutes & texts, Unlimited International minutes to 42 destinations."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Lebara MVNO on Vodafone network. Premium plan with unlimited everything including international calls."
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Vodafone",
+  "plans": [
+    {
+      "name": "Unlimited Plus",
+      "price": 24,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "100Mbps",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive EU roaming"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Promotional pricing - was £33, now £24. Price rises to £26.50 on 1 April 2026, £29 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G at no extra cost. Free 3-month Secure Net trial included. Promotional 'Save £216' offer."
+      }
+    },
+    {
+      "name": "Unlimited Plus Xtra Global Roam",
+      "price": 31,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "100Mbps",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive roaming in 83 worldwide destinations"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Promotional pricing - was £43, now £31. Price rises to £33.50 on 1 April 2026, £36 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 83 worldwide destinations. Free 3-month Secure Net trial."
+      }
+    },
+    {
+      "name": "30GB Red",
+      "price": 17,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "100Mbps",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive EU roaming"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Promotional pricing - was £21, now £17. Price rises to £19.50 on 1 April 2026, £22 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G at no extra cost. Free 3-month Secure Net trial. Promotional 'Save £96' offer."
+      }
+    },
+    {
+      "name": "Unlimited Plus Xtra Euro Roam",
+      "price": 40,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "100Mbps",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive roaming in 51 European destinations"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Price rises to £42.50 on 1 April 2026, £45 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 51 European destinations. Free 3-month Secure Net trial."
+      }
+    },
+    {
+      "name": "Unlimited Max Xtra Global Roam",
+      "price": 46,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "Uncapped",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive roaming in 83 worldwide destinations"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Price rises to £48.50 on 1 April 2026, £51 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speeds. 5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 83 worldwide destinations. Free 3-month Secure Net trial."
+      }
+    },
+    {
+      "name": "Unlimited Max Xtra Euro Roam",
+      "price": 43,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "Uncapped",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive roaming in 51 European destinations"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Price rises to £45.50 on 1 April 2026, £48 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speeds. 5G Ultra ready. Xtra benefits: Device Care, Unlimited Picture Messages, Inclusive roaming in 51 European destinations. Free 3-month Secure Net trial."
+      }
+    },
+    {
+      "name": "Unlimited Max",
+      "price": 36,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": "Uncapped",
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive EU roaming"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Price rises to £38.50 on 1 April 2026, £41 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Uncapped speeds. 5G at no extra cost. Free 3-month Secure Net trial."
+      }
+    },
+    {
+      "name": "50GB Red",
+      "price": 21,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Vodafone",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "Unknown",
+        "notes": "Inclusive EU roaming"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Price rises to £23.50 on 1 April 2026, £26 on 1 April 2027"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "5G Ultra ready at no extra cost. Free 3-month Secure Net trial."
+      }
+    }
+  ]
+}

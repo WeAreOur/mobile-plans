@@ -1,0 +1,151 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Superdrug Mobile",
+  "plans": [
+    {
+      "name": "10GB",
+      "price": 7,
+      "currency": "GBP",
+      "data": "10GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "10GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.superdrugmobile.com/register/sim-only/deals",
+            "accessDate": "2026-01-01",
+            "notes": "Contract-free monthly plan. Data rollover included. £7 back in Health & Beautycard points when you start using your SIM. Double Health & Beautycard points on all Superdrug shopping."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program"
+      }
+    },
+    {
+      "name": "30GB",
+      "price": 10,
+      "currency": "GBP",
+      "data": "30GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "12GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.superdrugmobile.com/register/sim-only/deals",
+            "accessDate": "2026-01-01",
+            "notes": "Contract-free monthly plan. Data rollover included. £10 back in Health & Beautycard points when you start using your SIM. Double Health & Beautycard points on all Superdrug shopping."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program"
+      }
+    },
+    {
+      "name": "60GB",
+      "price": 10,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "12GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.superdrugmobile.com/register/sim-only/deals",
+            "accessDate": "2026-01-01",
+            "notes": "Contract-free monthly plan. Promotional price (was £13). Data rollover included. £10 back in Health & Beautycard points when you start using your SIM. Double Health & Beautycard points on all Superdrug shopping."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, promotional pricing"
+      }
+    },
+    {
+      "name": "100GB",
+      "price": 13,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "12GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.superdrugmobile.com/register/sim-only/deals",
+            "accessDate": "2026-01-01",
+            "notes": "Contract-free monthly plan. Promotional price (was £16). Data rollover included. £13 back in Health & Beautycard points when you start using your SIM. Double Health & Beautycard points on all Superdrug shopping."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, promotional pricing"
+      }
+    },
+    {
+      "name": "Unlimited",
+      "price": 20,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "30 days",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "Free",
+        "euDataLimit": "12GB"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.superdrugmobile.com/register/sim-only/deals",
+            "accessDate": "2026-01-01",
+            "notes": "Contract-free monthly plan with unlimited UK data. £20 back in Health & Beautycard points when you start using your SIM. Double Health & Beautycard points on all Superdrug shopping. Labeled 'ALL YOU NEED'."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Three MVNO, rolling monthly, 99% UK coverage, rewards program, premium unlimited plan"
+      }
+    }
+  ]
+}

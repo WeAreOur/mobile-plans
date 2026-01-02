@@ -1,0 +1,246 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Sky Mobile",
+  "plans": [
+    {
+      "name": "100MB",
+      "price": 5,
+      "currency": "GBP",
+      "data": "0.1GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": "Data-only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "1GB",
+      "price": 2,
+      "currency": "GBP",
+      "data": "1GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": ""
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "5GB",
+      "price": 7,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": ""
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "10GB",
+      "price": 12,
+      "currency": "GBP",
+      "data": "10GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": ""
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "40GB",
+      "price": 18,
+      "currency": "GBP",
+      "data": "40GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": "Data-only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "50GB",
+      "price": 14,
+      "currency": "GBP",
+      "data": "50GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": ""
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "60GB",
+      "price": 22,
+      "currency": "GBP",
+      "data": "60GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": "Data-only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    },
+    {
+      "name": "Unlimited",
+      "price": 29,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "12 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "Variable",
+      "roaming": {
+        "euDailyCharge": "£2/day",
+        "euDataLimit": "25GB",
+        "notes": "£2 per day for EU roaming (up to 25GB)"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.sky.com/shop/mobile/plans",
+            "accessDate": "2026-01-01",
+            "notes": "Data-only unlimited plan with Fair Usage Policy"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "12-month minimum term. Data plan price may increase during 12-month minimum term. eSIM and plastic SIM card available. Data rollover - spare data rolls over each month. 99% UK network coverage. 5G ready on all plans."
+      }
+    }
+  ]
+}

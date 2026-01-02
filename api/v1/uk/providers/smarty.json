@@ -1,0 +1,486 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "Smarty",
+  "plans": [
+    {
+      "name": "Unlimited",
+      "price": 18,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Promotional pricing - was £20, now £18"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Promotional offer: Unlimited data for just £18 (regular price £20). 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "200GB",
+      "price": 17,
+      "currency": "GBP",
+      "data": "200GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Voice plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "150GB",
+      "price": 15,
+      "currency": "GBP",
+      "data": "150GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Voice plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "100GB",
+      "price": 12,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Voice plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "40GB",
+      "price": 10,
+      "currency": "GBP",
+      "data": "40GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Voice plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "16GB",
+      "price": 8,
+      "currency": "GBP",
+      "data": "16GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Voice plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "24GB (Triple Data)",
+      "price": 7,
+      "currency": "GBP",
+      "data": "24GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Special offer - triple data promotion"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Special offer: triple data promotion (base 8GB tripled to 24GB for £7). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "5GB",
+      "price": 6,
+      "currency": "GBP",
+      "data": "5GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Voice plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Voice plan. Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "Unlimited (Data Only)",
+      "price": 20,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "0",
+      "texts": "0",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Data Only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "100GB (Data Only)",
+      "price": 17,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "0",
+      "texts": "0",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Data Only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "40GB (Data Only)",
+      "price": 13,
+      "currency": "GBP",
+      "data": "40GB",
+      "minutes": "0",
+      "texts": "0",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Data Only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "15GB (Data Only)",
+      "price": 9,
+      "currency": "GBP",
+      "data": "15GB",
+      "minutes": "0",
+      "texts": "0",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Data Only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "2GB (Data Only)",
+      "price": 5,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "0",
+      "texts": "0",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Data Only plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Data Only plan - no calls or texts included. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "3GB (Money Back)",
+      "price": 8,
+      "currency": "GBP",
+      "data": "3GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Money Back plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Money Back plan - get money back for unused data (up to £3 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "2GB (Money Back)",
+      "price": 7,
+      "currency": "GBP",
+      "data": "2GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Money Back plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Money Back plan - get money back for unused data (up to £2 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    },
+    {
+      "name": "1GB (Money Back)",
+      "price": 6,
+      "currency": "GBP",
+      "data": "1GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "1 month",
+      "network": "Three",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "None",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "12GB",
+        "notes": "EU roaming included"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://smarty.co.uk/select-plan",
+            "accessDate": "2026-01-01",
+            "notes": "Money Back plan pricing"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Money Back plan - get money back for unused data (up to £1 back every month). Unlimited calls & texts. 1-month rolling contract. Cancel anytime."
+      }
+    }
+  ]
+}

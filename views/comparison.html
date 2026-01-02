@@ -3,12 +3,12 @@
     <h1 id="page-title">Mobile Plans - Comparison</h1>
     
     <div class="controls">
-      <select id="country-select" onchange="updateConfig({ country: this.value })">
+      <select id="country-select" onchange="updateConfig({ country: this.value })" style="display: none;">
         <option value="uk">United Kingdom</option>
         <option value="us">United States</option>
       </select>
       
-      <select id="locale-select" onchange="updateConfig({ locale: this.value })">
+      <select id="locale-select" onchange="updateConfig({ locale: this.value })" style="display: none;">
         <option value="en">English</option>
         <option value="ar">العربية</option>
         <option value="he">עברית</option>
@@ -17,6 +17,15 @@
       <select id="view-select" onchange="updateConfig({ view: this.value })">
         <option value="providers">Cards</option>
         <option value="comparison">Table</option>
+      </select>
+      
+      <select id="sort-select" onchange="window.sortPlans(this.value)">
+        <option value="price-asc" selected>Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="data-asc">Data: Low to High</option>
+        <option value="data-desc">Data: High to Low</option>
+        <option value="provider-asc">Provider: A to Z</option>
+        <option value="provider-desc">Provider: Z to A</option>
       </select>
     </div>
   </header>
@@ -31,7 +40,8 @@
           <th id="th-data">Data</th>
           <th id="th-minutes">Minutes</th>
           <th id="th-contract">Contract</th>
-          <th id="th-status">Status</th>
+          <th id="th-roaming">Roaming</th>
+          <th id="th-status">Last Reviewed</th>
           <th id="th-link">Link</th>
         </tr>
       </thead>
@@ -43,15 +53,104 @@
     <p>
       <span id="data-attribution"></span> • 
       <a href="https://github.com/WeAreOur/mobile-plans">Contribute on GitHub</a> • 
-      <a href="/legal/LICENSE.md">CC-BY-SA 4.0</a>
+      <a href="/legal/LICENSE.md">CC-BY-SA 4.0</a> • 
+      <a href="/legal/PRIVACY.md">Privacy</a> • 
+      <a href="/legal/TERMS.md">Terms</a> • 
+      <a href="/docs/GOVERNANCE.md">Governance</a>
     </p>
   </footer>
 </div>
 
 <script>
+  let currentSort = 'price-asc';
+  let sortedProviders = [];
+  
+  window.sortPlans = function(sortType) {
+    currentSort = sortType;
+    const [field, direction] = sortType.split('-');
+    
+    sortedProviders.sort((a, b) => {
+      let aVal, bVal;
+      
+      switch(field) {
+        case 'price':
+          aVal = a.price;
+          bVal = b.price;
+          break;
+        case 'data':
+          // Convert data to sortable number (GB)
+          aVal = parseData(a.data);
+          bVal = parseData(b.data);
+          break;
+        case 'provider':
+          aVal = a.provider.toLowerCase();
+          bVal = b.provider.toLowerCase();
+          break;
+        default:
+          return 0;
+      }
+      
+      if (direction === 'asc') {
+        return aVal > bVal ? 1 : aVal < bVal ? -1 : 0;
+      } else {
+        return aVal < bVal ? 1 : aVal > bVal ? -1 : 0;
+      }
+    });
+    
+    renderTable();
+  };
+  
+  function parseData(dataStr) {
+    if (!dataStr || dataStr === 'N/A') return -1;
+    if (dataStr.toLowerCase() === 'unlimited') return 999999;
+    const match = dataStr.match(/(\d+(?:\.\d+)?)\s*(GB|MB)/i);
+    if (!match) return 0;
+    const value = parseFloat(match[1]);
+    const unit = match[2].toUpperCase();
+    return unit === 'GB' ? value : value / 1024;
+  }
+  
+  function formatRoaming(roaming) {
+    if (!roaming || !roaming.euDailyCharge) return 'N/A';
+    const charge = roaming.euDailyCharge.toLowerCase();
+    if (charge === 'free' || charge === 'none') {
+      const limit = roaming.euDataLimit || '';
+      // Only show cap if it's a specific value (not Unknown, Unlimited, or empty)
+      if (limit && limit.toLowerCase() !== 'unknown' && limit.toLowerCase() !== 'unlimited') {
+        return `Free EU (up to ${limit})`;
+      }
+      return 'Free EU';
+    }
+    return roaming.euDailyCharge;
+  }
+  
+  function renderTable() {
+    const tbody = document.getElementById('table-body');
+    tbody.innerHTML = sortedProviders.map(plan => `
+      <tr>
+        <td class="provider-cell">${plan.provider}</td>
+        <td>${plan.name}</td>
+        <td class="price-cell">${plan.currency} ${plan.price}/mo</td>
+        <td>${plan.data}</td>
+        <td>${plan.minutes || 'N/A'}</td>
+        <td>${plan.contractLength || 'N/A'}</td>
+        <td>${formatRoaming(plan.roaming)}</td>
+        <td>
+          <span class="badge badge-review-date">
+            ${plan.metadata.sources[0].accessDate}
+          </span>
+        </td>
+        <td>
+          <a href="${plan.metadata.sources[0].url}" target="_blank" rel="noopener">
+            ${window.t('view_plan')}
+          </a>
+        </td>
+      </tr>
+    `).join('');
+  }
+  
   window.initView = function() {
     const { providers, meta } = window.currentData;
-    const tbody = document.getElementById('table-body');
     const attribution = document.getElementById('data-attribution');
     
     // Update title and headers
@@ -62,32 +161,17 @@
     document.getElementById('th-data').textContent = window.t('data');
     document.getElementById('th-minutes').textContent = window.t('minutes');
     document.getElementById('th-contract').textContent = window.t('contract');
-    document.getElementById('th-status').textContent = window.t('status');
+    document.getElementById('th-roaming').textContent = 'Roaming';
+    document.getElementById('th-status').textContent = 'Last Reviewed';
     document.getElementById('th-link').textContent = 'Link';
     
-    // Render table rows
-    tbody.innerHTML = providers.map(plan => `
-      <tr>
-        <td class="provider-cell">${plan.provider}</td>
-        <td>${plan.name}</td>
-        <td class="price-cell">${plan.currency} ${plan.price}/mo</td>
-        <td>${plan.data}</td>
-        <td>${plan.minutes || 'N/A'}</td>
-        <td>${plan.contractLength || 'N/A'}</td>
-        <td>
-          <span class="badge badge-${plan.metadata.confidence}">
-            ${plan.metadata.confidence}
-          </span>
-        </td>
-        <td>
-          <a href="${plan.metadata.sourceUrl}" target="_blank" rel="noopener">
-            ${window.t('view_plan')}
-          </a>
-        </td>
-      </tr>
-    `).join('');
+    // Filter to show only verified and complete plans
+    sortedProviders = providers.filter(plan => 
+      plan.status === 'complete' && plan.metadata.confidence === 'verified'
+    );
+    window.sortPlans('price-asc');
     
     // Update attribution
-    attribution.textContent = `${meta.country} • ${providers.length} plans`;
+    attribution.textContent = `${meta.country} • ${sortedProviders.length} plans`;
   };
 </script>

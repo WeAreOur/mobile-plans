@@ -1,0 +1,126 @@
+{
+  "schema": "/api/v1/schema.json",
+  "provider": "O2",
+  "plans": [
+    {
+      "name": "100GB Plus Plan",
+      "price": 17.99,
+      "currency": "GBP",
+      "data": "100GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "25GB",
+        "notes": "Roam at no extra cost in 75 destinations worldwide, including EU, USA, Australia and Mexico"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.o2.co.uk/shop/sim-cards/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Sale promotional pricing. Price rises to £20.49 on Apr 2026, £22.99 on Apr 2027, then £2.50 every April thereafter"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Plus Plan includes: Data rollover, Choose 6 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+      }
+    },
+    {
+      "name": "Unlimited Plus Plan",
+      "price": 23.99,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "25GB",
+        "notes": "Roam at no extra cost in 75 destinations worldwide, including EU, USA, Australia and Mexico"
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.o2.co.uk/shop/sim-cards/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Sale promotional pricing. Price rises to £26.49 on Apr 2026, £28.99 on Apr 2027, then £2.50 every April thereafter. Fair usage policy applies."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Plus Plan includes: Roaming in 75 destinations, Choose 6 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+      }
+    },
+    {
+      "name": "12GB Classic Plan",
+      "price": 15.00,
+      "currency": "GBP",
+      "data": "12GB",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "25GB",
+        "notes": "Roam freely in the EU. Only on O2. Up to 25GB."
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.o2.co.uk/shop/sim-cards/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Sale promotional pricing. Price rises to £17.50 on Apr 2026, £20.00 on Apr 2027, then £2.50 every April thereafter"
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Classic Plan includes: EU roaming, Choose 3 months of Disney+ Standard/Amazon Prime or more, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+      }
+    },
+    {
+      "name": "Unlimited Ultimate Plan",
+      "price": 32.49,
+      "currency": "GBP",
+      "data": "Unlimited",
+      "minutes": "Unlimited",
+      "texts": "Unlimited",
+      "contractLength": "24 months",
+      "network": "O2",
+      "speedCap": null,
+      "5g": true,
+      "priceIncrease": "£2.50 per April",
+      "roaming": {
+        "euDailyCharge": "None",
+        "euDataLimit": "25GB",
+        "notes": "Roam freely at no extra cost with O2 Travel Inclusive Zone Ultimate. 123 destinations worldwide."
+      },
+      "status": "complete",
+      "metadata": {
+        "sources": [
+          {
+            "url": "https://www.o2.co.uk/shop/sim-cards/sim-only-deals",
+            "accessDate": "2026-01-01",
+            "notes": "Christmas Sale promotional pricing. Price rises to £34.99 on Apr 2026, £37.49 on Apr 2027, then £2.50 every April thereafter. Fair usage policy applies."
+          }
+        ],
+        "confidence": "verified",
+        "notes": "Ultimate Plan includes: Roaming in 123 worldwide destinations, Pick an Extra included for lifetime of plan, Option to upgrade to new phone after 3 months. Christmas Sale offer ends 7 January."
+      }
+    }
+  ]
+}
