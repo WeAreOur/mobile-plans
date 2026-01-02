@@ -80,10 +80,16 @@
   </div>
   
   <footer class="footer">
+    <div class="affiliate-disclosure-bar">
+      ℹ️ This site contains affiliate links. We may earn a commission when you sign up with a provider, at no extra cost to you. 
+      This doesn't affect our data or rankings. 
+      <a href="/legal/AFFILIATES.md">Read our transparency policy</a>
+    </div>
     <p>
       <span id="data-attribution"></span> • 
       <a href="https://github.com/WeAreOur/mobile-plans">Contribute on GitHub</a> • 
       <a href="/legal/LICENSE.md">CC-BY-SA 4.0</a> • 
+      <a href="/legal/AFFILIATES.md">Affiliate Transparency</a> • 
       <a href="/legal/PRIVACY.md">Privacy</a> • 
       <a href="/legal/TERMS.md">Terms</a> • 
       <a href="/docs/GOVERNANCE.md">Governance</a>
@@ -109,8 +115,8 @@
           </span>
         </td>
         <td>
-          <a href="${plan.metadata.sources[0].url}" target="_blank" rel="noopener">
-            ${window.t('view_plan')}
+          <a href="${WAO.getPlanUrl(plan)}" target="_blank" rel="noopener" class="cta-button" style="display: inline-block; padding: 0.5rem 1rem; font-size: 0.875rem;">
+            View Plan${WAO.hasAffiliateLink(plan) ? '<span class="affiliate-badge">*</span>' : ''}
           </a>
         </td>
       </tr>

@@ -132,6 +132,11 @@
                 "type": "string",
                 "format": "uri",
                 "description": "Archive.org snapshot URL"
+              },
+              "affiliateUrl": {
+                "type": "string",
+                "format": "uri",
+                "description": "Optional affiliate/referral URL for this plan (if available)"
               }
             }
           }

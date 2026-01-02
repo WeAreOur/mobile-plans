@@ -156,13 +156,52 @@ window.WAO = (function() {
     const charge = roaming.euDailyCharge.toLowerCase();
     if (charge === 'free' || charge === 'none') {
       const limit = roaming.euDataLimit || '';
-      // Only show cap if it's a specific value (not Unknown, Unlimited, or empty)
-      if (limit && limit.toLowerCase() !== 'unknown' && limit.toLowerCase() !== 'unlimited') {
+      const limitLower = limit.toLowerCase();
+      // Only show cap if it's a specific value (not Unknown, Unlimited, No set limit, etc.)
+      if (limit && 
+          limitLower !== 'unknown' && 
+          limitLower !== 'unlimited' && 
+          limitLower !== 'no set limit' &&
+          limitLower !== 'no limit' &&
+          !limitLower.includes('n/a')) {
         return `Free EU (up to ${limit})`;
       }
       return 'Free EU';
     }
     return roaming.euDailyCharge;
+  }
+  
+  /**
+   * Add UTM tracking parameters to URLs
+   */
+  function addTrackingToUrl(url, provider, planName) {
+    const params = new URLSearchParams({
+      utm_source: 'weareour-mobile-plans',
+      utm_medium: 'referral',
+      utm_campaign: 'plan-comparison',
+      utm_content: `${provider}-${planName}`.toLowerCase().replace(/\s/g, '-')
+    });
+    
+    const separator = url.includes('?') ? '&' : '?';
+    return `${url}${separator}${params.toString()}`;
+  }
+  
+  /**
+   * Get the appropriate URL for a plan (affiliate if available, otherwise tracked source)
+   */
+  function getPlanUrl(plan) {
+    // Use affiliate URL if available, otherwise use first source URL
+    const baseUrl = plan.metadata.sources[0].affiliateUrl || plan.metadata.sources[0].url;
+    
+    // Add tracking parameters
+    return addTrackingToUrl(baseUrl, plan.provider.name, plan.name);
+  }
+  
+  /**
+   * Check if a plan has an affiliate link
+   */
+  function hasAffiliateLink(plan) {
+    return !!(plan.metadata.sources[0].affiliateUrl);
   }
   
   /**
@@ -181,6 +220,8 @@ window.WAO = (function() {
     parseData,
     formatCurrency,
     formatRoaming,
+    getPlanUrl,
+    hasAffiliateLink,
     getSortedProviders
   };
 })();
