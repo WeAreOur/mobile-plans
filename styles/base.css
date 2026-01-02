@@ -98,6 +98,14 @@ body {
   margin-block-end: 1rem;
 }
 
+/* Plan Badges */
+.plan-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-block-end: 1rem;
+}
+
 /* Plan Details */
 .plan-details {
   margin-block-end: 1rem;
@@ -154,6 +162,33 @@ body {
 }
 
 .badge-disputed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-review-date {
+  background: #f1f5f9;
+  color: #475569;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.badge-5g {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-speed {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.badge-warning {
   background: #fee2e2;
   color: #991b1b;
 }

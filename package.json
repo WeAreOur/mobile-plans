@@ -1,4 +1,26 @@
 {
+  "name": "mobile-plans",
+  "version": "0.2.0",
+  "description": "Community-driven mobile plan comparison platform",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "serve": "cd .. && python3 -m http.server 8002",
+    "test": "npm run validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WeAreOur/mobile-plans.git"
+  },
+  "keywords": [
+    "mobile",
+    "plans",
+    "comparison",
+    "pricing",
+    "uk"
+  ],
+  "author": "WeAreOur Community",
+  "license": "CC-BY-SA-4.0",
   "devDependencies": {
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1"

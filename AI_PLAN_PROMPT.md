@@ -10,21 +10,17 @@
 
 ### Priority 1: Deployment & Community
 1. **GitHub Pages Deployment**
-   - Enable in repo settings
+   - ✅ GitHub Actions workflow created
+   - ✅ Auto-deploy on main branch push
+   - Enable in repo settings (manual step)
    - Set up custom domain (optional)
    - Test deployment
-   - Auto-deploy workflow on main branch push
 
 2. **Community Bootstrap**
    - Announcement on r/UKPersonalFinance, r/AskUK
    - Create "good first issue" labels
    - Set up GitHub Discussions
    - Add contributor recognition
-
-3. **Add scripts/validate.js**
-   - Node.js validation script with AJV
-   - URL accessibility checks
-   - Integration with GitHub Actions
 
 ### Priority 2: Schema & Features Enhancements
 1. **Zero-rated services field** (user requested)
